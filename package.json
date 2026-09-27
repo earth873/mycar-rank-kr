@@ -13,7 +13,9 @@
     "test": "tsx --test tests/*.test.ts",
     "test:smoke": "tsx scripts/smoke.mjs",
     "format": "prettier --write app components lib scripts tests",
-    "package:source": "node scripts/package-source.mjs"
+    "package:source": "node scripts/package-source.mjs",
+    "font:og": "tsx scripts/update-og-font.ts",
+    "smoke": "npm run test:smoke"
   },
   "dependencies": {
     "next": "16.3.6",

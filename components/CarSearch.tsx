@@ -3,6 +3,7 @@ import { useId, useState } from "react";
 import { useRouter } from "next/navigation";
 import index from "@/data/car_search_index.json";
 import { searchCars } from "@/lib/search";
+import { trackEvent } from "@/lib/analytics";
 export default function CarSearch() {
   const [query, setQuery] = useState(""),
     [composing, setComposing] = useState(false),
@@ -13,6 +14,14 @@ export default function CarSearch() {
   const results = searchCars(index, query);
   const visible = open && !composing && !!query.trim();
   function go(slug: string) {
+    const car = results.find((c) => c.slug === slug);
+    if (car)
+      trackEvent({
+        name: "search_select",
+        car: car.model_family,
+        manufacturer: car.manufacturer,
+        rank: car.overall_rank,
+      });
     setOpen(false);
     router.push(`/car/${encodeURIComponent(slug)}`);
   }

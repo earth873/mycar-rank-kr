@@ -1,5 +1,6 @@
 "use client";
 import { useState } from "react";
+import { trackEvent } from "@/lib/analytics";
 type KakaoSDK = {
   isInitialized: () => boolean;
   init: (key: string) => void;
@@ -36,6 +37,7 @@ export default function ShareButtons({
   const [status, setStatus] = useState("");
   const text = `내 ${name}가 대한민국 역대 판매량 ${rank}위래 🚗\n국내에서 ${sales} 판매!\n내 차 순위도 확인해보기`;
   async function copy() {
+    trackEvent({ name: "share_car", car: name, method: "copy", rank });
     try {
       await navigator.clipboard.writeText(location.href);
       setStatus("링크를 복사했어요.");
@@ -45,15 +47,17 @@ export default function ShareButtons({
   }
   async function share() {
     try {
-      if (navigator.share)
+      if (navigator.share) {
+        trackEvent({ name: "share_car", car: name, method: "native", rank });
         await navigator.share({ title: "내차몇위", text, url: location.href });
-      else await copy();
+      } else await copy();
     } catch (e) {
       if (!(e instanceof Error && e.name === "AbortError"))
         setStatus("공유하지 못했어요. 링크 복사를 이용해주세요.");
     }
   }
   async function kakao() {
+    trackEvent({ name: "share_car", car: name, method: "kakao", rank });
     try {
       await loadKakao();
       if (!window.Kakao) throw Error();

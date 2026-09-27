@@ -1,58 +1,64 @@
-# 배포 안정화 검증 기록
+# V1.1 운영 준비 검증 기록
 
-2026-09-27 · Windows · Next.js 16.3.6 프로덕션 빌드
+2026-09-27 · Windows · Next.js 16.3.6 · 로컬 프로덕션 서버
 
-## 이번 작업에서 실행한 검사
+## 실행 결과
 
 | 검사 | 결과 |
 | --- | --- |
-| npm install | PASS, 취약점 0건 |
 | npm run validate | PASS |
 | npm run typecheck | PASS |
 | npm run lint | PASS, 오류·경고 없음 |
-| npm test | PASS, 9개 테스트 |
+| npm test | PASS, 12개 테스트 |
 | npm run build | PASS |
-| npm run test:smoke | PASS |
-| npm run package:source | PASS |
+| npm run smoke | PASS |
 
-## 데이터 및 정적 생성
+## 정적 생성 및 데이터 보존
 
-- 차량: 117개 / 브랜드: 6개
-- 정적 차량 상세: 117개 / 정적 브랜드 페이지: 6개
-- slug 중복: 0 / overall_rank 중복: 0
-- 전체 순위: 1부터 현재 차량 수까지 연속
-- 검색 인덱스: 차량과 같은 개수, 양방향 slug 대응 확인
-- 기존 두 운영 JSON의 SHA-256: 작업 전후 동일
-- 차량·브랜드 dynamicParams=false, 빌드 manifest의 fallback=false 확인
-- 정상 차량·브랜드 전체 HTTP 200
-- /car/not-existing: HTTP 404
-- /brand/not-existing: HTTP 404
-- 사이트맵: 기본 3 + 브랜드 6 + 차량 117 = 126개, 전체 URL 집합 일치
-- 홈·랭킹·About·브랜드·차량 canonical 주소 확인
-- 홈 WebSite, 모든 차량 BreadcrumbList JSON-LD 파싱 및 주소 확인
-- robots의 sitemap 주소 확인
+- 차량 상세 117개, 브랜드 6개 정적 생성 유지
+- 기본 OG 1개 + 차량 OG 117개 = PNG 118개 정적 생성
+- 차량·브랜드·OG 경로의 dynamicParams=false 유지
+- 모든 차량·브랜드·OG endpoint HTTP 200, 미등록 경로 HTTP 404
+- 사이트맵 URL 126개 유지, OG endpoint는 사이트맵에서 제외
+- canonical, WebSite/Breadcrumb JSON-LD, robots의 사이트맵 주소 검사 통과
+- 기존 차량·검색 JSON의 SHA-256 작업 전후 동일, 새 npm 의존성 없음
 
-위 숫자는 이번 검증 시점의 기록이며, 코드와 테스트 기대값은 현재 JSON에서 계산합니다.
+## CTA
 
-## 회귀 및 확장성
+- 검색 영역 id=car-search, 하단 CTA href=#car-search
+- 같은 해시에서 반복 클릭해도 동작하는 기본 앵커 사용
+- 모바일 390px 및 데스크톱 1440px에서 클릭 후 검색 영역이 화면 위 100px 위치에 표시됨
+- 기존 smooth scroll 및 prefers-reduced-motion의 auto 설정 유지
+- 확인한 브라우저에서 콘솔 오류·hydration 경고 없음
 
-- 검색어 싼타페 / Santa Fe / 현대 싼타페 / 그랜저 / 레이 / 스파크의 첫 결과 확인
-- 현재 모든 차량 검색 테스트 통과
-- 원본·인코딩된 한글 경로 처리 테스트 통과
-- 1·150·200·300개 테스트 전용 메모리 데이터셋 검증 통과
-- 중복 slug/rank, 순위 공백, 필수 필드 누락, 음수·비숫자 판매량, 검색 누락·중복·미등록 slug 거부 확인
-- URL 우선순위: 명시 주소 → Vercel 프로덕션 주소 → Vercel 배포 주소 → 로컬 주소
-- 잘못된 URL·프로토콜·경로·자격증명 거부 확인
-- 실제 브라우저에서 필수 검색어 6종, 방향키·Enter로 싼타페 상세 이동 확인
-- 이번 브라우저 검사에서 오류·hydration 경고 없음
-- 검색 IME 코드, 공유 코드, 화면 스타일은 변경하지 않음. 실제 기기 IME·카카오 전송은 이번 패치에서 재검증하지 않음
+## Analytics / Search Console
 
-## 소스 배포
+- GA ID가 없으면 컴포넌트가 null을 반환하며 프로덕션 HTML에 GA URL 미삽입
+- 잘못된 ID, 브라우저 없는 실행에서도 안전한 no-op 테스트 통과
+- 초기화 스크립트를 격리된 VM에서 실행해 config 1회 큐 등록 확인
+- 임시 로컬 서버에 테스트 GA ID와 인증 토큰을 설정하여 실제 응답 HTML의 GA init/loader 및 google-site-verification meta 확인
+- 임시 서버는 검사 후 종료했으며 테스트 값을 파일에 저장하지 않음
+- 위 검사는 HTML만 읽었고 실제 Google 수집 요청은 실행하지 않음
+- 빈 Search Console 토큰은 metadata에서 제외, 값이 있으면 포함하는 테스트 통과
+- GA 페이지뷰는 기본 설정과 향상된 측정의 History 이벤트를 사용하며 수동 page_view 중복 전송 없음
+- 검색 이벤트는 선택 모델명·브랜드·순위만 사용하며 자유 입력 검색어를 전송하지 않음
+- 실제 계정의 GA 수신/SPA 페이지뷰 및 Search Console 소유권 인증은 사용자 값 등록 후 확인 필요
 
-`dist/naecha-source.zip`은 소스·운영 데이터·테스트·설정·잠금 파일·문서를 포함합니다. `node_modules`, `.next`, `.env`, `.env.local`, 기타 환경변수 파일, `*.tsbuildinfo`, 과거 Build Pack, 기존 ZIP은 제외하며 `.env.example`은 포함합니다. ZIP 엔트리와 원본 파일의 SHA-256 일치 여부를 확인했습니다.
+## OG 검사
 
-원본 자료 전체의 영구 삭제는 자동 승인 검토에서 CSV·문서 손실 위험으로 거부되어, 복구 가능한 `dist/reference-build-pack`으로 이동했습니다. 해당 자료는 Git과 소스 ZIP에서 제외되며, 빌드·검증은 이 폴더를 읽지 않습니다.
+| 이미지 | PNG 크기 | 내용 및 한글 확인 |
+| --- | --- | --- |
+| 기본 | 1200×630 | PASS, 데이터 기반 모델 수 |
+| 싼타페 | 1200×630 | PASS, #6 / 약 156만대 |
+| 그랜저 | 1200×630 | PASS, #5 / 약 241만대 |
+| 레이 | 1200×630 | PASS, #25 / 약 49만대 |
 
-## 실제 배포 전 설정
+전체 118개 PNG의 signature·크기·응답 형식을 검사했습니다. 위 4개 이미지는 직접 열어 시각적으로 확인했습니다. 모든 차량 페이지의 og:image, twitter:image, summary_large_image 메타데이터가 올바른 endpoint를 참조합니다.
 
-실제 도메인으로 `NEXT_PUBLIC_SITE_URL`을 설정합니다. 카카오 공유를 사용하는 경우에만 키와 웹 도메인을 등록하고 실기기 전송을 확인합니다. 이번 작업은 로컬 배포 준비이며 외부 서비스에 게시하지 않았습니다.
+Google Fonts Noto Sans KR Bold의 SIL OFL 서브셋 33,276바이트를 로컬 저장했습니다. 폰트 내부 cmap을 검사해 필요한 214개 문자가 모두 포함됨을 확인했습니다. 빌드 및 요청 시 외부 폰트 다운로드가 없습니다. 라이선스는 public/fonts/OFL.txt에 포함합니다.
+
+## 전달 및 배포 상태
+
+README 및 .env.example에 GA·Search Console·Sitemap·Vercel 환경변수와 폰트 갱신 절차를 추가했습니다. dist/naecha-source.zip을 최신 소스로 다시 생성합니다. 기존 UI·랭킹·공유 방식은 유지합니다.
+
+이 폴더에는 .git이 없어 Git 커밋과 push는 수행하지 않았습니다. 이번 변경은 로컬에서 구현·검증했으며 Vercel의 공개 배포에는 아직 반영하지 않았습니다. 실제 환경변수를 등록한 뒤 변경본을 재배포해야 합니다.

@@ -54,6 +54,39 @@ Windows에서 `npm run package:source`를 실행하면 기본 제공 `tar.exe`�
 
 과거 원본 자료는 로컬 `dist/reference-build-pack`에만 보관하며 Git·배포 소스 ZIP·빌드 의존성에서 제외합니다.
 
+## V1.1 운영 설정
+
+| 변수                     | 필수         | 용도                                               |
+| ------------------------ | ------------ | -------------------------------------------------- |
+| NEXT_PUBLIC_SITE_URL     | 배포 후 권장 | canonical / sitemap / OG 이미지의 실제 사이트 주소 |
+| NEXT_PUBLIC_GA_ID        | 선택         | Google Analytics 4                                 |
+| GOOGLE_SITE_VERIFICATION | 선택         | Google Search Console HTML 태그 인증               |
+| NEXT_PUBLIC_KAKAO_JS_KEY | 선택         | 카카오톡 공유                                      |
+
+### Analytics 설정
+
+Vercel Project → Settings → Environment Variables에서 `NEXT_PUBLIC_GA_ID=G-XXXXXXXXXX`를 실제 Measurement ID로 등록하고 재배포합니다. 값이 없거나 올바른 ID 형식이 아니면 GA 스크립트를 삽입하지 않습니다. 루트 레이아웃에서 `next/script`의 `afterInteractive`로 한 번만 로드합니다.
+
+페이지뷰는 GA4 기본 설정과 **향상된 측정 → 페이지 조회 → 고급 설정 → 브라우저 기록 이벤트에 따른 페이지 변경**을 켜서 수집합니다. App Router 이동은 History API를 사용하므로 수동 page_view를 중복 전송하지 않습니다. 실제 ID 등록 후 GA 실시간/DebugView에서 첫 방문과 차량 간 이동이 각각 한 번씩 기록되는지 확인하세요. [Google SPA 측정 안내](https://developers.google.com/analytics/devguides/collection/ga4/single-page-applications)
+
+`search_select`는 선택된 차량명·브랜드·순위만, `share_car`는 차량명·공유 방식·순위만 전송합니다. 검색창의 자유 입력값, 차량번호, 이름·이메일 등을 전송하는 커스텀 코드는 없습니다. 기존 카카오 텍스트 공유는 그대로 유지하며, 링크 공유 시 OG 이미지를 사용할 수 있습니다.
+
+### Search Console 설정
+
+Vercel 환경변수 `GOOGLE_SITE_VERIFICATION`에 HTML 태그의 `content` 값만 등록하고 재배포합니다. 태그 전체를 붙여 넣지 않습니다. 그다음 Search Console에서 URL 접두어 속성의 HTML 태그 방식으로 확인합니다. 미설정 시 빈 인증 meta 태그를 만들지 않습니다.
+
+### Sitemap
+
+Search Console에 `https://도메인/sitemap.xml`을 제출합니다. 사이트맵은 기존 페이지 주소만 포함하고 OG 이미지 URL은 포함하지 않습니다. 도메인 변경 시 `NEXT_PUBLIC_SITE_URL`을 바꾸고 재배포합니다.
+
+### OG 공유 이미지
+
+Next.js `ImageResponse`로 `/og/site`와 `/og/[차량 slug]`에 1200×630 PNG를 정적으로 생성합니다. 차량 페이지는 계속 Server Component와 정적 생성 구조를 사용합니다. 없는 차량의 이미지 요청은 404입니다. Open Graph와 Twitter `summary_large_image`가 같은 차량별 이미지를 참조합니다. 외부 자동차 사진이나 런타임 폰트 다운로드는 사용하지 않습니다.
+
+한글 폰트는 Google Fonts의 **Noto Sans KR Bold**를 필요한 글자만 담은 로컬 서브셋으로 사용합니다. `public/fonts/OFL.txt`에 SIL OFL 1.1 라이선스가 포함되어 있습니다. [원본 라이선스](https://github.com/google/fonts/blob/main/ofl/notosanskr/OFL.txt) · [Google Fonts 서브셋 안내](https://developers.google.com/fonts/docs/getting_started#optimizing_your_font_requests)
+
+차량명이나 이미지 문구 변경으로 새 글자가 추가되면 `npm run font:og`를 한 번 실행하고 생성된 폰트·글자 목록·라이선스를 소스에 포함하세요. 이 갱신 명령만 네트워크를 사용하며 일반 빌드에는 필요하지 않습니다. `npm test`가 새 글자의 누락을 감지합니다. `npm run smoke`는 페이지·메타데이터·이미지 endpoint를 검사합니다.
+
 ## 향후 TODO
 
-출시 도메인 설정, 카카오 공유 실기기 확인(사용 시), 데이터 갱신. 향후 수입차·연도별 통계·공유 이미지는 별도 범위입니다.
+실제 GA ID·Search Console 인증값 등록 및 재배포, 출시 도메인 설정, 카카오 공유 실기기 확인(사용 시), 데이터 갱신. 향후 수입차·연도별 통계는 별도 범위입니다.

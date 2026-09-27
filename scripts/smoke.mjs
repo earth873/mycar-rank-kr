@@ -1,6 +1,7 @@
 import assert from "node:assert/strict";
-import { readFileSync } from "node:fs";
+import { readFileSync, mkdirSync, writeFileSync } from "node:fs";
 import { resolveSiteUrl } from "../lib/site.ts";
+import { analyticsId } from "../lib/analytics.ts";
 
 const base = process.env.TEST_BASE_URL || "http://localhost:3000";
 // Use TEST_SITE_URL when checking a build produced with a different environment.
@@ -49,6 +50,19 @@ function canonical(html, path) {
     `Canonical mismatch: ${path}`,
   );
 }
+function metaContent(html, name) {
+  return [...html.matchAll(/<meta\b[^>]*>/g)]
+    .find((m) => m[0].includes(`="${name}"`))?.[0]
+    .match(/content="([^"]*)"/)?.[1];
+}
+function ogMetadata(html, path) {
+  const expected =
+    site +
+    (path.startsWith("/car/") ? path.replace("/car/", "/og/") : "/og/site");
+  assert.equal(metaContent(html, "og:image"), expected);
+  assert.equal(metaContent(html, "twitter:image"), expected);
+  assert.equal(metaContent(html, "twitter:card"), "summary_large_image");
+}
 function schema(html, type) {
   const schemas = [
     ...html.matchAll(
@@ -62,6 +76,17 @@ function schema(html, type) {
 for (const path of ["/", "/rank", "/about", ...brandPaths]) {
   const html = await get(path);
   canonical(html, path);
+  ogMetadata(html, path);
+  if (path === "/") {
+    assert.equal(
+      html.includes("googletagmanager.com/gtag/js"),
+      !!analyticsId(),
+    );
+    assert.equal(
+      metaContent(html, "google-site-verification"),
+      process.env.GOOGLE_SITE_VERIFICATION?.trim() || undefined,
+    );
+  }
   if (path === "/") assert.equal(schema(html, "WebSite").url, site);
 }
 for (const [i, car] of cars.entries()) {
@@ -71,6 +96,7 @@ for (const [i, car] of cars.entries()) {
     car.slug,
   );
   canonical(html, carPaths[i]);
+  ogMetadata(html, carPaths[i]);
   const crumbs = schema(html, "BreadcrumbList").itemListElement;
   assert.equal(crumbs.at(-1).item, site + carPaths[i]);
   assert.equal(crumbs.at(-1).name, car.model_family);
@@ -86,6 +112,34 @@ assert.equal(urls.length, 3 + brands.length + cars.length);
 assert.deepEqual(new Set(urls), new Set(expected));
 const robots = await get("/robots.txt");
 assert.ok(robots.includes(`Sitemap: ${site}/sitemap.xml`));
+const ogSlugs = ["site", ...cars.map((c) => c.slug)];
+assert.equal(
+  Object.keys(manifest.routes).filter((p) => p.startsWith("/og/")).length,
+  ogSlugs.length,
+);
+assert.equal(manifest.dynamicRoutes["/og/[slug]"].fallback, false);
+mkdirSync(new URL("../dist/og-checks/", import.meta.url), { recursive: true });
+for (const slug of ogSlugs) {
+  const response = await fetch(base + "/og/" + encodeURIComponent(slug));
+  assert.equal(response.status, 200, slug);
+  assert.ok(
+    response.headers.get("content-type")?.startsWith("image/png"),
+    slug,
+  );
+  const png = Buffer.from(await response.arrayBuffer());
+  assert.equal(png.subarray(0, 8).toString("hex"), "89504e470d0a1a0a", slug);
+  assert.equal(png.readUInt32BE(16), 1200, slug);
+  assert.equal(png.readUInt32BE(20), 630, slug);
+  if (["site", "현대-싼타페", "현대-그랜저", "기아-레이"].includes(slug))
+    writeFileSync(
+      new URL(`../dist/og-checks/${slug}.png`, import.meta.url),
+      png,
+    );
+}
+assert.equal((await fetch(base + "/og/not-existing")).status, 404);
+console.log(
+  `PASS: ${ogSlugs.length} static 1200×630 PNG images, OG/Twitter links, optional GA/verification, unknown OG 404.`,
+);
 console.log(
   `PASS: ${cars.length} static car pages, ${brands.length} static brands, ${urls.length} sitemap URLs; canonical, JSON-LD, robots, and unknown-route 404s.`,
 );

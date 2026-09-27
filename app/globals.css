@@ -1,4 +1,7 @@
 @import "tailwindcss";
+#car-search {
+  scroll-margin-top: 100px;
+}
 :root {
   --ink: #172f29;
   --green: #176b4a;

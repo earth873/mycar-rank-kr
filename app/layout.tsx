@@ -1,10 +1,12 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { siteUrl } from "@/lib/seo";
+import { siteUrl, googleVerification } from "@/lib/seo";
+import GoogleAnalytics from "@/components/GoogleAnalytics";
 import { cars } from "@/lib/cars";
 import "./globals.css";
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
+  verification: googleVerification(),
   title: {
     default: "내차몇위 | 내 차의 대한민국 판매순위",
     template: "%s | 내차몇위",
@@ -50,6 +52,7 @@ export default function RootLayout({
             <p>© {new Date().getFullYear()} 내차몇위</p>
           </div>
         </footer>
+        <GoogleAnalytics />
       </body>
     </html>
   );

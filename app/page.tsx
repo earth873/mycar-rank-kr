@@ -39,7 +39,9 @@ export default function Home() {
           <p className="hero-description">
             대한민국 주요 국산차의 누적 판매량과 순위를 확인해보세요.
           </p>
-          <CarSearch />
+          <div id="car-search">
+            <CarSearch />
+          </div>
           <div className="popular">
             <span>바로 찾아보기</span>
             {["싼타페", "그랜저", "레이", "쏘렌토"].map((name) => (
@@ -90,7 +92,7 @@ export default function Home() {
           <div>
             <p className="eyebrow">ALL-TIME BEST SELLERS</p>
             <h2>
-              대한민국 역대 판매 TOP 10<span className="small-dot">●</span>
+              국산차 역대 판매 TOP 10<span className="small-dot">●</span>
             </h2>
             <p>우리 도로에서 자주 만나는 데는 이유가 있죠.</p>
           </div>
@@ -145,9 +147,9 @@ export default function Home() {
           <h2>모든 차에는 이야기가 있어요.</h2>
           <p>익숙했던 자동차의 새로운 기록을 발견해보세요.</p>
         </div>
-        <Link className="button primary" href="#main">
+        <a className="button primary" href="#car-search">
           내 차 찾아보기 ↑
-        </Link>
+        </a>
       </section>
     </>
   );
