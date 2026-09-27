@@ -5,6 +5,7 @@ import RankingList from "@/components/RankingList";
 import { cars, carPath, brands } from "@/lib/cars";
 import { DATA_REFERENCE } from "@/lib/site";
 import { categoryGroup } from "@/lib/rankings";
+import { getRankingCategoryForCar } from "@/lib/ranking-categories";
 import { metadata, siteUrl } from "@/lib/seo";
 export const generateMetadata = () =>
   metadata(
@@ -124,7 +125,10 @@ export default function Home() {
                 </span>
                 <h3>{category} TOP 5</h3>
                 <Link
-                  href={`/rank?category=${encodeURIComponent(category)}`}
+                  href={
+                    getRankingCategoryForCar(category)?.path ??
+                    `/rank?category=${encodeURIComponent(category)}`
+                  }
                   aria-label={`${category} 전체 순위`}
                 >
                   ↗

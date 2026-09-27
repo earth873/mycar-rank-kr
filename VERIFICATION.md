@@ -1,4 +1,59 @@
-# V1.1 운영 준비 검증 기록
+# V1.2 정적 차급 랭킹 검증 기록
+
+2026-09-27 · Windows · Next.js 16.3.6 · 로컬 프로덕션 빌드 및 서버
+
+| 검사 | 결과 |
+| --- | --- |
+| npm run validate | PASS, 차량 117개 및 검색 항목 117개 |
+| npm run typecheck | PASS |
+| npm run lint | PASS |
+| npm test | PASS, 기존 12개 유지 + 신규 5개 = 17개 |
+| npm run build | PASS, 신규 차급 5개 SSG |
+| npm run smoke | PASS, 실제 HTTP 및 prerender manifest 검사 |
+| git diff --check | PASS |
+
+테스트 첫 실행은 Windows 샌드박스의 uv_os_get_passwd ENOMEM 오류로 중단됐습니다. 일반 실행 권한으로 다시 실행한 npm test와 npm run smoke가 통과했습니다.
+
+## 생성된 페이지와 데이터
+
+| URL | 표시명 | 차량 수 |
+| --- | --- | ---: |
+| /rank/suv | SUV | 40 |
+| /rank/sedan | 세단 | 40 |
+| /rank/compact | 경차 | 6 |
+| /rank/mpv | MPV | 11 |
+| /rank/commercial | 상용차 | 6 |
+
+- 모든 그룹이 최소 3개 및 권장 5개 기준 충족. 기존 categoryGroup()을 사용하며 기타 14개는 새 페이지 대상에서 제외.
+- 세부 차급의 category_rank 대신 estimated_domestic_sales 내림차순으로 UI 순위 1~N 표시. 동률은 기존 전체 순위 순서 유지.
+- 공통 config를 정적 경로, metadata, sitemap, 내부 링크에서 재사용.
+- 차량 117개, 브랜드 6개, OG PNG 118개 정적 생성 유지. 신규 차급 페이지 5개 모두 SSG manifest에 포함.
+- sitemap 126개 → 131개(+5). 예상 URL 집합을 데이터와 config에서 계산하여 검사.
+- 차급 페이지마다 고유 title/description/canonical 및 OG/Twitter metadata, BreadcrumbList, ItemList 확인.
+- 실제 HTML의 순위 1~N과 ItemList의 차량·순서·URL 일치 확인. /rank/not-existing HTTP 404 및 dynamicParams=false 확인.
+- 기존 차량/브랜드/OG 전 경로 HTTP 200, 미등록 경로 404, robots 및 OG 이미지 크기 검사 통과.
+
+## 내부 탐색 및 화면 확인
+
+- 홈 SUV·세단·경차 카드의 화살표를 정적 페이지로 연결.
+- 상세페이지 같은 차급 영역에 해당 그룹 전체 순위 링크 추가.
+- /rank 필터 위에 5개 정적 차급 링크 추가. 기존 /rank?category=SUV의 40개 모델 및 전체 순위 표시 유지 확인.
+- Browser로 320px에서 5개 페이지 모두 가로 넘침 및 모델명 잘림 없음 확인.
+- 390px SUV 화면의 TOP 3 세로 배치, 1440px 화면의 TOP 3 3열 및 랭킹 1열 확인.
+- Analytics·Search Console·검색·공유·기존 OG 구현 변경 없음.
+
+## 원본 파일 보존
+
+작업 전후 SHA-256 동일:
+
+- data/cars.json: A42C941C18B764DBBA2FE8E31510BA20AF85342E3ACFA3B27065D8D5C4EE4C56
+- data/car_search_index.json: 4E7DE30FFA91803E94D9D753E2265D166D5D5EF9EE2517834697C00AC391D8AB
+
+새 의존성 및 .gitignore 변경 없음. 커밋·push·Vercel 재배포는 수행하지 않았습니다. 아래 V1.1 기록은 당시 검증 이력입니다.
+
+---
+
+# V1.1 운영 준비 검증 기록 (이전 이력)
 
 2026-09-27 · Windows · Next.js 16.3.6 · 로컬 프로덕션 서버
 

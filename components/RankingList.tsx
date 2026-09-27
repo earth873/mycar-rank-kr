@@ -8,21 +8,25 @@ export default function RankingList({
   compact = false,
 }: {
   cars: Car[];
-  rank?: "overall_rank" | "brand_rank" | "category_rank";
+  rank?: "overall_rank" | "brand_rank" | "category_rank" | "position";
   current?: string;
   compact?: boolean;
 }) {
   return (
     <ol className={`ranking-list ${compact ? "compact" : ""}`}>
-      {cars.map((c) => (
+      {cars.map((c, index) => (
         <li key={c.slug}>
           <Link
             href={carPath(c.slug)}
             className={`rank-row ${current === c.slug ? "current" : ""}`}
             aria-current={current === c.slug ? "page" : undefined}
           >
-            <span className={`rank-number ${c[rank] <= 3 ? "top-rank" : ""}`}>
-              {c[rank].toString().padStart(2, "0")}
+            <span
+              className={`rank-number ${(rank === "position" ? index + 1 : c[rank]) <= 3 ? "top-rank" : ""}`}
+            >
+              {(rank === "position" ? index + 1 : c[rank])
+                .toString()
+                .padStart(2, "0")}
             </span>
             <span className="car-name">
               <small>

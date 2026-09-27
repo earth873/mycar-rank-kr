@@ -1,4 +1,6 @@
 import { Suspense } from "react";
+import Link from "next/link";
+import { staticRankingCategories } from "@/lib/ranking-categories";
 import RankingExplorer from "@/components/RankingExplorer";
 import { cars, brands } from "@/lib/cars";
 import { metadata } from "@/lib/seo";
@@ -17,6 +19,13 @@ export default function Rank() {
         오랜 시간, 우리와 함께 달려온 자동차들.
       </p>
       <Suspense fallback={<p>랭킹을 불러오는 중이에요.</p>}>
+        <nav className="category-links" aria-label="차급별 역대 판매순위">
+          {staticRankingCategories.map((category) => (
+            <Link className="chip" key={category.slug} href={category.path}>
+              {category.label} 역대 순위 ↗
+            </Link>
+          ))}
+        </nav>
         <RankingExplorer cars={cars} brands={brands} />
       </Suspense>
     </div>

@@ -2,6 +2,8 @@ import assert from "node:assert/strict";
 import { readFileSync, mkdirSync, writeFileSync } from "node:fs";
 import { resolveSiteUrl } from "../lib/site.ts";
 import { analyticsId } from "../lib/analytics.ts";
+import { staticRankingCategories } from "../lib/ranking-categories.ts";
+import { brandLabel, carPath } from "../lib/cars.ts";
 
 const base = process.env.TEST_BASE_URL || "http://localhost:3000";
 // Use TEST_SITE_URL when checking a build produced with a different environment.
@@ -29,7 +31,12 @@ assert.deepEqual(
   new Set(staticBrandPaths.map(decodeURIComponent)),
   new Set(brandPaths.map(decodeURIComponent)),
 );
-for (const route of ["/car/[slug]", "/brand/[brand]"])
+const categoryPaths = staticRankingCategories.map((c) => c.path);
+assert.deepEqual(
+  new Set(Object.keys(manifest.routes).filter((p) => p.startsWith("/rank/"))),
+  new Set(categoryPaths),
+);
+for (const route of ["/car/[slug]", "/brand/[brand]", "/rank/[category]"])
   assert.equal(
     manifest.dynamicRoutes[route].fallback,
     false,
@@ -101,14 +108,53 @@ for (const [i, car] of cars.entries()) {
   assert.equal(crumbs.at(-1).item, site + carPaths[i]);
   assert.equal(crumbs.at(-1).name, car.model_family);
 }
-for (const path of ["/car/not-existing", "/brand/not-existing"])
+for (const category of staticRankingCategories) {
+  const html = await get(category.path);
+  canonical(html, category.path);
+  ogMetadata(html, category.path);
+  assert.ok(html.includes(`<h1>${category.heading}</h1>`));
+  assert.ok(html.includes(`<title>${category.title} | 내차몇위</title>`));
+  assert.equal(metaContent(html, "description"), category.description);
+  assert.equal(
+    schema(html, "BreadcrumbList").itemListElement.at(-1).item,
+    site + category.path,
+  );
+  assert.deepEqual(
+    schema(html, "ItemList").itemListElement,
+    category.cars.map((car, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      name: `${brandLabel(car.manufacturer)} ${car.model_family}`,
+      url: site + carPath(car.slug),
+    })),
+  );
+  const ranks = [
+    ...html.matchAll(/<span class="rank-number [^"]*">(\d+)<\/span>/g),
+  ].map((m) => Number(m[1]));
+  assert.deepEqual(
+    ranks,
+    category.cars.map((_, index) => index + 1),
+  );
+  for (const car of category.cars)
+    assert.ok(html.includes(`href="${carPath(car.slug)}"`));
+}
+for (const path of [
+  "/car/not-existing",
+  "/brand/not-existing",
+  "/rank/not-existing",
+])
   assert.equal((await fetch(base + path)).status, 404, path);
 const sitemap = await get("/sitemap.xml");
 const urls = [...sitemap.matchAll(/<loc>(.*?)<\/loc>/g)].map((m) => m[1]);
-const expected = ["", "/rank", "/about", ...brandPaths, ...carPaths].map(
-  (p) => site + p,
-);
-assert.equal(urls.length, 3 + brands.length + cars.length);
+const expected = [
+  "",
+  "/rank",
+  "/about",
+  ...categoryPaths,
+  ...brandPaths,
+  ...carPaths,
+].map((p) => site + p);
+assert.equal(urls.length, expected.length);
 assert.deepEqual(new Set(urls), new Set(expected));
 const robots = await get("/robots.txt");
 assert.ok(robots.includes(`Sitemap: ${site}/sitemap.xml`));
@@ -141,5 +187,5 @@ console.log(
   `PASS: ${ogSlugs.length} static 1200×630 PNG images, OG/Twitter links, optional GA/verification, unknown OG 404.`,
 );
 console.log(
-  `PASS: ${cars.length} static car pages, ${brands.length} static brands, ${urls.length} sitemap URLs; canonical, JSON-LD, robots, and unknown-route 404s.`,
+  `PASS: ${cars.length} static car pages, ${brands.length} static brands, ${categoryPaths.length} static categories, ${urls.length} sitemap URLs; canonical, JSON-LD, ranks, robots, and unknown-route 404s.`,
 );

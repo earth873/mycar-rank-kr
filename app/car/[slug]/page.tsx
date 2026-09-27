@@ -2,6 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { cars, getCar, carPath, brandPath, brandLabel } from "@/lib/cars";
 import { nearby } from "@/lib/rankings";
+import { getRankingCategoryForCar } from "@/lib/ranking-categories";
 import { metadata, siteUrl } from "@/lib/seo";
 import RankingList from "@/components/RankingList";
 import ShareButtons from "@/components/ShareButtons";
@@ -22,6 +23,7 @@ export async function generateMetadata({ params }: Props) {
 export default async function CarPage({ params }: Props) {
   const c = getCar((await params).slug);
   if (!c) notFound();
+  const rankingCategory = getRankingCategoryForCar(c.category);
   const crumbs = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -154,6 +156,13 @@ export default async function CarPage({ params }: Props) {
               .slice(0, 5)}
             rank="category_rank"
           />
+          {rankingCategory && (
+            <p className="category-more">
+              <Link href={rankingCategory.path}>
+                전체 {rankingCategory.label} 순위 보기 →
+              </Link>
+            </p>
+          )}
         </section>
       </div>
       <p className="data-note">
