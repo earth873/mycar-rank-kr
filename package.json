@@ -1,0 +1,35 @@
+{
+  "name": "naecha-rank",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "prebuild": "npm run validate",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "validate": "node scripts/validate.mjs",
+    "test": "tsx --test tests/*.test.ts",
+    "test:smoke": "tsx scripts/smoke.mjs",
+    "format": "prettier --write app components lib scripts tests",
+    "package:source": "node scripts/package-source.mjs"
+  },
+  "dependencies": {
+    "next": "16.3.6",
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "4.3.3",
+    "@types/node": "26.6.3",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "eslint": "9.39.5",
+    "eslint-config-next": "16.3.6",
+    "prettier": "3.9.9",
+    "tailwindcss": "4.3.3",
+    "tsx": "4.23.15",
+    "typescript": "6.0.3"
+  }
+}

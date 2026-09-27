@@ -1,0 +1,3523 @@
+[
+  {
+    "id": "현대-쏘나타",
+    "slug": "현대-쏘나타",
+    "manufacturer": "현대",
+    "model_family": "쏘나타",
+    "aliases": [
+      "Sonata"
+    ],
+    "category": "중형세단",
+    "launch_year": 1985,
+    "discontinued_year": null,
+    "is_current": true,
+    "estimated_domestic_sales": 3910000,
+    "display_sales": "약 391만대",
+    "sales_as_of": "2025-12-31",
+    "confidence": "HIGH",
+    "sales_method": "ANCHOR_PLUS_RECENT",
+    "overall_rank": 1,
+    "brand_rank": 1,
+    "category_rank": 1,
+    "generations": [
+      "Y1",
+      "Y2",
+      "Y3",
+      "EF",
+      "NF",
+      "YF",
+      "LF",
+      "DN8"
+    ],
+    "generation_count": 8,
+    "predecessor": "",
+    "successor": "",
+    "short_history": "1985년 시작된 현대의 대표 중형 세단으로 여러 세대를 거치며 장수 모델로 자리 잡았다.",
+    "notable_fact": "2019년 8월 이미 국내 누적 355만대를 넘겼다."
+  },
+  {
+    "id": "현대-아반떼-엘란트라",
+    "slug": "현대-아반떼-엘란트라",
+    "manufacturer": "현대",
+    "model_family": "아반떼/엘란트라",
+    "aliases": [
+      "Avante",
+      "Elantra"
+    ],
+    "category": "준중형세단",
+    "launch_year": 1990,
+    "discontinued_year": null,
+    "is_current": true,
+    "estimated_domestic_sales": 3460000,
+    "display_sales": "약 346만대",
+    "sales_as_of": "2025-12-31",
+    "confidence": "HIGH",
+    "sales_method": "ANCHOR_PLUS_RECENT",
+    "overall_rank": 2,
+    "brand_rank": 2,
+    "category_rank": 1,
+    "generations": [
+      "J1",
+      "J2",
+      "XD",
+      "HD",
+      "MD",
+      "AD",
+      "CN7"
+    ],
+    "generation_count": 7,
+    "predecessor": "",
+    "successor": "",
+    "short_history": "1990년 엘란트라로 시작해 아반떼로 이어진 현대의 대표 준중형 세단 계보다.",
+    "notable_fact": "2019년 8월 국내 누적 300만대를 돌파했다."
+  },
+  {
+    "id": "기아-봉고",
+    "slug": "기아-봉고",
+    "manufacturer": "기아",
+    "model_family": "봉고",
+    "aliases": [
+      "Bongo",
+      "Bongo III"
+    ],
+    "category": "경상용",
+    "launch_year": 1980,
+    "discontinued_year": null,
+    "is_current": true,
+    "estimated_domestic_sales": 3100000,
+    "display_sales": "약 310만대",
+    "sales_as_of": "2025-12-31",
+    "confidence": "LOW",
+    "sales_method": "MVP_ESTIMATE",
+    "overall_rank": 3,
+    "brand_rank": 1,
+    "category_rank": 1,
+    "generations": [
+      "봉고",
+      "봉고 II",
+      "봉고 III"
+    ],
+    "generation_count": 3,
+    "predecessor": "",
+    "successor": "",
+    "short_history": "1980년대 '봉고 신화'를 만든 기아의 대표 소형 상용차 계보로 현재도 1톤 트럭으로 이어진다.",
+    "notable_fact": "2003년 7월 이미 계보 누적 200만대를 돌파한 것으로 보도됐다."
+  },
+  {
+    "id": "현대-포터",
+    "slug": "현대-포터",
+    "manufacturer": "현대",
+    "model_family": "포터",
+    "aliases": [
+      "Porter",
+      "Porter II"
+    ],
+    "category": "경상용",
+    "launch_year": 1977,
+    "discontinued_year": null,
+    "is_current": true,
+    "estimated_domestic_sales": 2600000,
+    "display_sales": "약 260만대",
+    "sales_as_of": "2025-12-31",
+    "confidence": "LOW",
+    "sales_method": "MVP_ESTIMATE",
+    "overall_rank": 4,
+    "brand_rank": 3,
+    "category_rank": 2,
+    "generations": [
+      "포터",
+      "뉴 포터",
+      "포터 II"
+    ],
+    "generation_count": 3,
+    "predecessor": "",
+    "successor": "",
+    "short_history": "자영업·물류 시장의 대표 1톤 트럭으로 오랜 기간 국내 상용차 판매 상위권을 지켜왔다.",
+    "notable_fact": "2012~2022년 10월 사이에만 103만대 이상 판매됐다."
+  },
+  {
+    "id": "현대-그랜저",
+    "slug": "현대-그랜저",
+    "manufacturer": "현대",
+    "model_family": "그랜저",
+    "aliases": [
+      "Grandeur"
+    ],
+    "category": "준대형세단",
+    "launch_year": 1986,
+    "discontinued_year": null,
+    "is_current": true,
+    "estimated_domestic_sales": 2410000,
+    "display_sales": "약 241만대",
+    "sales_as_of": "2025-12-31",
+    "confidence": "HIGH",
+    "sales_method": "ANCHOR_PLUS_RECENT",
+    "overall_rank": 5,
+    "brand_rank": 4,
+    "category_rank": 1,
+    "generations": [
+      "1세대",
+      "뉴 그랜저",
+      "XG",
+      "TG",
+      "HG",
+      "IG",
+      "GN7"
+    ],
+    "generation_count": 7,
+    "predecessor": "",
+    "successor": "",
+    "short_history": "1986년 출시 이후 한국 준대형 세단 시장을 대표해 온 현대의 장수 모델이다.",
+    "notable_fact": "2020년 말 국내 누적 200만대를 돌파했다."
+  },
+  {
+    "id": "현대-싼타페",
+    "slug": "현대-싼타페",
+    "manufacturer": "현대",
+    "model_family": "싼타페",
+    "aliases": [
+      "Santa Fe"
+    ],
+    "category": "중형SUV",
+    "launch_year": 2000,
+    "discontinued_year": null,
+    "is_current": true,
+    "estimated_domestic_sales": 1560000,
+    "display_sales": "약 156만대",
+    "sales_as_of": "2025-12-31",
+    "confidence": "HIGH",
+    "sales_method": "ANCHOR_PLUS_RECENT",
+    "overall_rank": 6,
+    "brand_rank": 5,
+    "category_rank": 1,
+    "generations": [
+      "SM",
+      "CM",
+      "DM",
+      "TM",
+      "MX5"
+    ],
+    "generation_count": 5,
+    "predecessor": "",
+    "successor": "",
+    "short_history": "2000년 등장한 현대의 중형 SUV로 국내 SUV 대중화를 이끈 장수 모델 중 하나다.",
+    "notable_fact": "5세대 MX5까지 이어진 현대의 대표 패밀리 SUV."
+  },
+  {
+    "id": "기아-카니발",
+    "slug": "기아-카니발",
+    "manufacturer": "기아",
+    "model_family": "카니발",
+    "aliases": [
+      "Carnival"
+    ],
+    "category": "MPV",
+    "launch_year": 1998,
+    "discontinued_year": null,
+    "is_current": true,
+    "estimated_domestic_sales": 1360000,
+    "display_sales": "약 136만대",
+    "sales_as_of": "2025-12-31",
+    "confidence": "HIGH",
+    "sales_method": "ANCHOR_PLUS_RECENT",
+    "overall_rank": 7,
+    "brand_rank": 2,
+    "category_rank": 1,
+    "generations": [
+      "KV-II",
+      "VQ",
+      "YP",
+      "KA4"
+    ],
+    "generation_count": 4,
+    "predecessor": "",
+    "successor": "",
+    "short_history": "1998년 출시된 대형 MPV로 국내 미니밴 시장을 사실상 대표해 온 모델이다.",
+    "notable_fact": "기아 국내 누적 판매 상위권을 꾸준히 유지."
+  },
+  {
+    "id": "기아-쏘렌토",
+    "slug": "기아-쏘렌토",
+    "manufacturer": "기아",
+    "model_family": "쏘렌토",
+    "aliases": [
+      "Sorento"
+    ],
+    "category": "중형SUV",
+    "launch_year": 2002,
+    "discontinued_year": null,
+    "is_current": true,
+    "estimated_domestic_sales": 1320000,
+    "display_sales": "약 132만대",
+    "sales_as_of": "2025-12-31",
+    "confidence": "HIGH",
+    "sales_method": "ANCHOR_PLUS_RECENT",
+    "overall_rank": 8,
+    "brand_rank": 3,
+    "category_rank": 2,
+    "generations": [
+      "BL",
+      "XM",
+      "UM",
+      "MQ4"
+    ],
+    "generation_count": 4,
+    "predecessor": "",
+    "successor": "",
+    "short_history": "2002년 출시된 중형 SUV로 세대교체를 거치며 기아의 핵심 패밀리 SUV가 됐다.",
+    "notable_fact": "2025년 국내 연간 판매 10만대를 처음 돌파."
+  },
+  {
+    "id": "기아-모닝",
+    "slug": "기아-모닝",
+    "manufacturer": "기아",
+    "model_family": "모닝",
+    "aliases": [
+      "Morning",
+      "Picanto"
+    ],
+    "category": "경차",
+    "launch_year": 2004,
+    "discontinued_year": null,
+    "is_current": true,
+    "estimated_domestic_sales": 1270000,
+    "display_sales": "약 127만대",
+    "sales_as_of": "2025-12-31",
+    "confidence": "HIGH",
+    "sales_method": "ANCHOR_PLUS_RECENT",
+    "overall_rank": 9,
+    "brand_rank": 4,
+    "category_rank": 1,
+    "generations": [
+      "SA",
+      "TA",
+      "JA"
+    ],
+    "generation_count": 3,
+    "predecessor": "",
+    "successor": "",
+    "short_history": "2004년 출시 이후 국내 경차 시장을 대표해 온 기아의 장수 모델이다.",
+    "notable_fact": "2022년 기준 기아 국내 승용모델 누적 1위."
+  },
+  {
+    "id": "대우-gm-마티즈-스파크",
+    "slug": "대우-gm-마티즈-스파크",
+    "manufacturer": "대우/GM",
+    "model_family": "마티즈/스파크",
+    "aliases": [
+      "Matiz",
+      "Spark"
+    ],
+    "category": "경차",
+    "launch_year": 1998,
+    "discontinued_year": 2022,
+    "is_current": false,
+    "estimated_domestic_sales": 1100000,
+    "display_sales": "약 110만대",
+    "sales_as_of": "2025-12-31",
+    "confidence": "MEDIUM",
+    "sales_method": "MVP_ESTIMATE",
+    "overall_rank": 10,
+    "brand_rank": 1,
+    "category_rank": 2,
+    "generations": [
+      "M100/M150",
+      "M200/M250",
+      "M300",
+      "M400"
+    ],
+    "generation_count": 4,
+    "predecessor": "",
+    "successor": "",
+    "short_history": "마티즈에서 스파크로 이어진 국내 대표 경차 계보로 오랜 기간 모닝과 경쟁했다.",
+    "notable_fact": "스파크는 쉐보레 국내 안착의 핵심 모델이었고 '밀리언 셀러'로 불렸다."
+  },
+  {
+    "id": "기아-스포티지",
+    "slug": "기아-스포티지",
+    "manufacturer": "기아",
+    "model_family": "스포티지",
+    "aliases": [
+      "Sportage"
+    ],
+    "category": "준중형SUV",
+    "launch_year": 1993,
+    "discontinued_year": null,
+    "is_current": true,
+    "estimated_domestic_sales": 1070000,
+    "display_sales": "약 107만대",
+    "sales_as_of": "2025-12-31",
+    "confidence": "HIGH",
+    "sales_method": "ANCHOR_PLUS_RECENT",
+    "overall_rank": 11,
+    "brand_rank": 5,
+    "category_rank": 1,
+    "generations": [
+      "NB-7",
+      "KM",
+      "SL",
+      "QL",
+      "NQ5"
+    ],
+    "generation_count": 5,
+    "predecessor": "",
+    "successor": "",
+    "short_history": "1993년 시작된 장수 SUV로 기아의 글로벌·국내 SUV 계보를 대표한다.",
+    "notable_fact": "2022년 약 85만대에서 최근 판매 호조로 100만대권 진입."
+  },
+  {
+    "id": "르노코리아-sm5",
+    "slug": "르노코리아-sm5",
+    "manufacturer": "르노코리아",
+    "model_family": "SM5",
+    "aliases": [
+      "SM5"
+    ],
+    "category": "중형세단",
+    "launch_year": 1998,
+    "discontinued_year": 2020,
+    "is_current": false,
+    "estimated_domestic_sales": 1000000,
+    "display_sales": "약 100만대",
+    "sales_as_of": "2025-12-31",
+    "confidence": "HIGH",
+    "sales_method": "DIRECT_CUMULATIVE",
+    "overall_rank": 12,
+    "brand_rank": 1,
+    "category_rank": 2,
+    "generations": [
+      "KPQ",
+      "EX1",
+      "L43"
+    ],
+    "generation_count": 3,
+    "predecessor": "",
+    "successor": "",
+    "short_history": "1998년 삼성자동차 출범과 함께 등장해 르노삼성의 성장을 이끈 대표 중형 세단이다.",
+    "notable_fact": "단종 무렵 국내 누적 약 100만대 판매."
+  },
+  {
+    "id": "현대-투싼",
+    "slug": "현대-투싼",
+    "manufacturer": "현대",
+    "model_family": "투싼",
+    "aliases": [
+      "Tucson"
+    ],
+    "category": "준중형SUV",
+    "launch_year": 2004,
+    "discontinued_year": null,
+    "is_current": true,
+    "estimated_domestic_sales": 930000,
+    "display_sales": "약 93만대",
+    "sales_as_of": "2025-12-31",
+    "confidence": "HIGH",
+    "sales_method": "ANCHOR_PLUS_RECENT",
+    "overall_rank": 13,
+    "brand_rank": 6,
+    "category_rank": 2,
+    "generations": [
+      "JM",
+      "LM",
+      "TL",
+      "NX4"
+    ],
+    "generation_count": 4,
+    "predecessor": "",
+    "successor": "",
+    "short_history": "2004년 출시된 준중형 SUV로 도심형 SUV 시장의 대표 모델로 성장했다.",
+    "notable_fact": "2025년 국내 누적 약 90만대 수준."
+  },
+  {
+    "id": "기아-프라이드",
+    "slug": "기아-프라이드",
+    "manufacturer": "기아",
+    "model_family": "프라이드",
+    "aliases": [
+      "Pride",
+      "Rio"
+    ],
+    "category": "소형차",
+    "launch_year": 1987,
+    "discontinued_year": 2017,
+    "is_current": false,
+    "estimated_domestic_sales": 890000,
+    "display_sales": "약 89만대",
+    "sales_as_of": "2025-12-31",
+    "confidence": "HIGH",
+    "sales_method": "DIRECT_CUMULATIVE",
+    "overall_rank": 14,
+    "brand_rank": 6,
+    "category_rank": 1,
+    "generations": [
+      "1세대",
+      "2세대",
+      "3세대"
+    ],
+    "generation_count": 3,
+    "predecessor": "",
+    "successor": "",
+    "short_history": "1987년 출시돼 기아의 대중 승용차 시대를 연 대표 소형차다.",
+    "notable_fact": "2022년 보도 기준 국내 약 89만대."
+  },
+  {
+    "id": "기아-k5",
+    "slug": "기아-k5",
+    "manufacturer": "기아",
+    "model_family": "K5",
+    "aliases": [
+      "K5",
+      "Optima successor"
+    ],
+    "category": "중형세단",
+    "launch_year": 2010,
+    "discontinued_year": null,
+    "is_current": true,
+    "estimated_domestic_sales": 850000,
+    "display_sales": "약 85만대",
+    "sales_as_of": "2025-12-31",
+    "confidence": "HIGH",
+    "sales_method": "ANCHOR_PLUS_RECENT",
+    "overall_rank": 15,
+    "brand_rank": 7,
+    "category_rank": 3,
+    "generations": [
+      "TF",
+      "JF",
+      "DL3"
+    ],
+    "generation_count": 3,
+    "predecessor": "",
+    "successor": "",
+    "short_history": "2010년 출시된 기아의 대표 중형 세단으로 디자인 혁신의 상징적 모델로 평가받는다.",
+    "notable_fact": "2022년 누적 약 74만대 수준."
+  },
+  {
+    "id": "현대-엑센트",
+    "slug": "현대-엑센트",
+    "manufacturer": "현대",
+    "model_family": "엑센트",
+    "aliases": [
+      "Accent"
+    ],
+    "category": "소형차",
+    "launch_year": 1994,
+    "discontinued_year": 2019,
+    "is_current": false,
+    "estimated_domestic_sales": 820000,
+    "display_sales": "약 82만대",
+    "sales_as_of": "2025-12-31",
+    "confidence": "HIGH",
+    "sales_method": "DIRECT_CUMULATIVE",
+    "overall_rank": 16,
+    "brand_rank": 7,
+    "category_rank": 2,
+    "generations": [
+      "X3",
+      "LC",
+      "RB"
+    ],
+    "generation_count": 3,
+    "predecessor": "",
+    "successor": "",
+    "short_history": "1994년 등장한 현대의 소형차로 국내외에서 대규모 판매를 기록한 모델이다.",
+    "notable_fact": "2019년 8월 국내 누적 81만3723대."
+  },
+  {
+    "id": "현대-스타렉스-그랜드-스타렉스",
+    "slug": "현대-스타렉스-그랜드-스타렉스",
+    "manufacturer": "현대",
+    "model_family": "스타렉스/그랜드 스타렉스",
+    "aliases": [
+      "Starex",
+      "Grand Starex"
+    ],
+    "category": "MPV",
+    "launch_year": 1997,
+    "discontinued_year": 2021,
+    "is_current": false,
+    "estimated_domestic_sales": 780000,
+    "display_sales": "약 78만대",
+    "sales_as_of": "2025-12-31",
+    "confidence": "LOW",
+    "sales_method": "MVP_ESTIMATE",
+    "overall_rank": 17,
+    "brand_rank": 8,
+    "category_rank": 2,
+    "generations": [
+      "A1",
+      "TQ"
+    ],
+    "generation_count": 2,
+    "predecessor": "",
+    "successor": "",
+    "short_history": "승합·업무·레저 수요를 폭넓게 흡수한 현대의 대표 다목적 승합차다.",
+    "notable_fact": "스타리아의 전신으로 오랜 기간 국내 승합차 시장을 대표했다."
+  },
+  {
+    "id": "현대-엑셀-프레스토",
+    "slug": "현대-엑셀-프레스토",
+    "manufacturer": "현대",
+    "model_family": "엑셀/프레스토",
+    "aliases": [
+      "Excel",
+      "Presto"
+    ],
+    "category": "소형차",
+    "launch_year": 1985,
+    "discontinued_year": 1994,
+    "is_current": false,
+    "estimated_domestic_sales": 700000,
+    "display_sales": "약 70만대",
+    "sales_as_of": "2025-12-31",
+    "confidence": "MEDIUM",
+    "sales_method": "MVP_ESTIMATE",
+    "overall_rank": 18,
+    "brand_rank": 9,
+    "category_rank": 3,
+    "generations": [
+      "X1",
+      "X2"
+    ],
+    "generation_count": 2,
+    "predecessor": "",
+    "successor": "",
+    "short_history": "1980년대 현대의 급성장을 이끈 전륜구동 소형차 계열로 국내 마이카 시대 확산에 기여했다.",
+    "notable_fact": "현대차가 1985년 내수 10만대 시대를 여는 데 기여한 핵심 모델."
+  },
+  {
+    "id": "대우-gm-티코",
+    "slug": "대우-gm-티코",
+    "manufacturer": "대우/GM",
+    "model_family": "티코",
+    "aliases": [
+      "Tico"
+    ],
+    "category": "경차",
+    "launch_year": 1991,
+    "discontinued_year": 2001,
+    "is_current": false,
+    "estimated_domestic_sales": 670000,
+    "display_sales": "약 67만대",
+    "sales_as_of": "2025-12-31",
+    "confidence": "MEDIUM",
+    "sales_method": "MVP_ESTIMATE",
+    "overall_rank": 19,
+    "brand_rank": 2,
+    "category_rank": 3,
+    "generations": [
+      "KLY3"
+    ],
+    "generation_count": 1,
+    "predecessor": "",
+    "successor": "",
+    "short_history": "1991년 출시된 대한민국 초기 경차 시장의 상징적 모델로 마티즈의 전신이다.",
+    "notable_fact": "국내 경차 대중화의 출발점."
+  },
+  {
+    "id": "기아-세피아",
+    "slug": "기아-세피아",
+    "manufacturer": "기아",
+    "model_family": "세피아",
+    "aliases": [
+      "Sephia"
+    ],
+    "category": "준중형세단",
+    "launch_year": 1992,
+    "discontinued_year": 2000,
+    "is_current": false,
+    "estimated_domestic_sales": 550000,
+    "display_sales": "약 55만대",
+    "sales_as_of": "2025-12-31",
+    "confidence": "MEDIUM",
+    "sales_method": "ANCHOR_PLUS_ESTIMATE",
+    "overall_rank": 20,
+    "brand_rank": 8,
+    "category_rank": 3,
+    "generations": [
+      "1세대",
+      "세피아 II"
+    ],
+    "generation_count": 2,
+    "predecessor": "",
+    "successor": "",
+    "short_history": "기아가 독자 플랫폼으로 개발한 첫 준중형 승용차로 1990년대 큰 인기를 얻었다.",
+    "notable_fact": "1세대만 47만2920대 판매."
+  },
+  {
+    "id": "대우-gm-르망",
+    "slug": "대우-gm-르망",
+    "manufacturer": "대우/GM",
+    "model_family": "르망",
+    "aliases": [
+      "LeMans"
+    ],
+    "category": "준중형세단",
+    "launch_year": 1986,
+    "discontinued_year": 1997,
+    "is_current": false,
+    "estimated_domestic_sales": 550000,
+    "display_sales": "약 55만대",
+    "sales_as_of": "2025-12-31",
+    "confidence": "MEDIUM",
+    "sales_method": "MVP_ESTIMATE",
+    "overall_rank": 21,
+    "brand_rank": 3,
+    "category_rank": 2,
+    "generations": [
+      "LeMans",
+      "New LeMans"
+    ],
+    "generation_count": 2,
+    "predecessor": "",
+    "successor": "",
+    "short_history": "대우의 1980~90년대 대표 준중형차로 오펠 기반 플랫폼을 사용했다.",
+    "notable_fact": "대우 승용차 전성기의 핵심 모델."
+  },
+  {
+    "id": "제네시스-g80-제네시스-세단",
+    "slug": "제네시스-g80-제네시스-세단",
+    "manufacturer": "제네시스",
+    "model_family": "G80/제네시스 세단",
+    "aliases": [
+      "Genesis Sedan",
+      "G80"
+    ],
+    "category": "준대형세단",
+    "launch_year": 2008,
+    "discontinued_year": null,
+    "is_current": true,
+    "estimated_domestic_sales": 550000,
+    "display_sales": "약 55만대",
+    "sales_as_of": "2025-12-31",
+    "confidence": "MEDIUM",
+    "sales_method": "MVP_ESTIMATE",
+    "overall_rank": 22,
+    "brand_rank": 1,
+    "category_rank": 2,
+    "generations": [
+      "BH",
+      "DH",
+      "RG3"
+    ],
+    "generation_count": 3,
+    "predecessor": "",
+    "successor": "",
+    "short_history": "2008년 현대 제네시스 세단에서 시작해 독립 브랜드 G80으로 이어진 대표 준대형 럭셔리 세단이다.",
+    "notable_fact": "제네시스 브랜드의 핵심 볼륨 모델."
+  },
+  {
+    "id": "현대-포니-포니2",
+    "slug": "현대-포니-포니2",
+    "manufacturer": "현대",
+    "model_family": "포니/포니2",
+    "aliases": [
+      "Pony",
+      "Pony 2"
+    ],
+    "category": "소형차",
+    "launch_year": 1975,
+    "discontinued_year": 1990,
+    "is_current": false,
+    "estimated_domestic_sales": 550000,
+    "display_sales": "약 55만대",
+    "sales_as_of": "2025-12-31",
+    "confidence": "MEDIUM",
+    "sales_method": "MVP_ESTIMATE",
+    "overall_rank": 23,
+    "brand_rank": 10,
+    "category_rank": 4,
+    "generations": [
+      "포니",
+      "포니2"
+    ],
+    "generation_count": 2,
+    "predecessor": "",
+    "successor": "",
+    "short_history": "대한민국 최초의 국산 고유모델로 현대차와 한국 자동차산업의 상징적 모델이다.",
+    "notable_fact": "1982년에 이미 누적 판매 30만대를 기록했다."
+  },
+  {
+    "id": "르노코리아-sm3",
+    "slug": "르노코리아-sm3",
+    "manufacturer": "르노코리아",
+    "model_family": "SM3",
+    "aliases": [
+      "SM3"
+    ],
+    "category": "준중형세단",
+    "launch_year": 2002,
+    "discontinued_year": 2020,
+    "is_current": false,
+    "estimated_domestic_sales": 500000,
+    "display_sales": "약 50만대",
+    "sales_as_of": "2025-12-31",
+    "confidence": "MEDIUM",
+    "sales_method": "MVP_ESTIMATE",
+    "overall_rank": 24,
+    "brand_rank": 2,
+    "category_rank": 4,
+    "generations": [
+      "N17",
+      "L38"
+    ],
+    "generation_count": 2,
+    "predecessor": "",
+    "successor": "",
+    "short_history": "2002년 출시된 르노삼성의 준중형 세단으로 장기간 꾸준히 판매됐다.",
+    "notable_fact": "부산공장 대표 생산모델 중 하나."
+  },
+  {
+    "id": "기아-레이",
+    "slug": "기아-레이",
+    "manufacturer": "기아",
+    "model_family": "레이",
+    "aliases": [
+      "Ray"
+    ],
+    "category": "경차",
+    "launch_year": 2011,
+    "discontinued_year": null,
+    "is_current": true,
+    "estimated_domestic_sales": 490000,
+    "display_sales": "약 49만대",
+    "sales_as_of": "2025-12-31",
+    "confidence": "HIGH",
+    "sales_method": "ANCHOR_PLUS_RECENT",
+    "overall_rank": 25,
+    "brand_rank": 9,
+    "category_rank": 4,
+    "generations": [
+      "TAM"
+    ],
+    "generation_count": 1,
+    "predecessor": "",
+    "successor": "",
+    "short_history": "박스형 차체와 슬라이딩 도어를 갖춘 독특한 경차로 꾸준한 내수 수요를 확보했다.",
+    "notable_fact": "2024년 누적 40만대를 넘겼고 이후에도 판매 호조."
+  },
+  {
+    "id": "대우-gm-라세티-크루즈",
+    "slug": "대우-gm-라세티-크루즈",
+    "manufacturer": "대우/GM",
+    "model_family": "라세티/크루즈",
+    "aliases": [
+      "Lacetti",
+      "Cruze"
+    ],
+    "category": "준중형세단",
+    "launch_year": 2002,
+    "discontinued_year": 2018,
+    "is_current": false,
+    "estimated_domestic_sales": 430000,
+    "display_sales": "약 43만대",
+    "sales_as_of": "2025-12-31",
+    "confidence": "LOW",
+    "sales_method": "MVP_ESTIMATE",
+    "overall_rank": 26,
+    "brand_rank": 4,
+    "category_rank": 5,
+    "generations": [
+      "J200",
+      "J300"
+    ],
+    "generation_count": 2,
+    "predecessor": "",
+    "successor": "",
+    "short_history": "라세티에서 라세티 프리미어·크루즈로 이어진 GM대우/한국GM의 준중형 세단 계보다.",
+    "notable_fact": "국내보다 수출 비중이 컸던 글로벌 전략차."
+  },
+  {
+    "id": "기아-k7",
+    "slug": "기아-k7",
+    "manufacturer": "기아",
+    "model_family": "K7",
+    "aliases": [
+      "K7",
+      "Cadenza"
+    ],
+    "category": "준대형세단",
+    "launch_year": 2009,
+    "discontinued_year": 2021,
+    "is_current": false,
+    "estimated_domestic_sales": 420000,
+    "display_sales": "약 42만대",
+    "sales_as_of": "2025-12-31",
+    "confidence": "MEDIUM",
+    "sales_method": "MVP_ESTIMATE",
+    "overall_rank": 27,
+    "brand_rank": 10,
+    "category_rank": 3,
+    "generations": [
+      "VG",
+      "YG"
+    ],
+    "generation_count": 2,
+    "predecessor": "",
+    "successor": "",
+    "short_history": "기아의 K 시리즈 출범을 알린 준대형 세단으로 2021년 K8에 자리를 넘겼다.",
+    "notable_fact": "K8의 직접 전신."
+  },
+  {
+    "id": "쌍용-kgm-코란도",
+    "slug": "쌍용-kgm-코란도",
+    "manufacturer": "쌍용/KGM",
+    "model_family": "코란도",
+    "aliases": [
+      "Korando",
+      "Korando C"
+    ],
+    "category": "준중형SUV",
+    "launch_year": 1983,
+    "discontinued_year": null,
+    "is_current": true,
+    "estimated_domestic_sales": 410000,
+    "display_sales": "약 41만대",
+    "sales_as_of": "2025-12-31",
+    "confidence": "LOW",
+    "sales_method": "MVP_ESTIMATE",
+    "overall_rank": 28,
+    "brand_rank": 1,
+    "category_rank": 3,
+    "generations": [
+      "구형 코란도",
+      "뉴 코란도",
+      "코란도 C",
+      "C300"
+    ],
+    "generation_count": 4,
+    "predecessor": "",
+    "successor": "",
+    "short_history": "국내에서 가장 오래된 SUV 이름 중 하나로 여러 세대를 거치며 쌍용/KGM의 핵심 브랜드로 이어졌다.",
+    "notable_fact": "한국 정통 SUV 역사에서 상징성이 큰 모델명."
+  },
+  {
+    "id": "기아-k3",
+    "slug": "기아-k3",
+    "manufacturer": "기아",
+    "model_family": "K3",
+    "aliases": [
+      "K3",
+      "Forte successor"
+    ],
+    "category": "준중형세단",
+    "launch_year": 2012,
+    "discontinued_year": 2024,
+    "is_current": false,
+    "estimated_domestic_sales": 360000,
+    "display_sales": "약 36만대",
+    "sales_as_of": "2025-12-31",
+    "confidence": "MEDIUM",
+    "sales_method": "MVP_ESTIMATE",
+    "overall_rank": 29,
+    "brand_rank": 11,
+    "category_rank": 6,
+    "generations": [
+      "YD",
+      "BD"
+    ],
+    "generation_count": 2,
+    "predecessor": "",
+    "successor": "",
+    "short_history": "포르테 후속으로 등장한 기아 준중형 세단으로 2024년 국내 판매가 종료됐다.",
+    "notable_fact": "기아 준중형 세단의 장기 주력 모델."
+  },
+  {
+    "id": "대우-gm-다마스",
+    "slug": "대우-gm-다마스",
+    "manufacturer": "대우/GM",
+    "model_family": "다마스",
+    "aliases": [
+      "Damas"
+    ],
+    "category": "경상용",
+    "launch_year": 1991,
+    "discontinued_year": 2021,
+    "is_current": false,
+    "estimated_domestic_sales": 350000,
+    "display_sales": "약 35만대",
+    "sales_as_of": "2025-12-31",
+    "confidence": "MEDIUM",
+    "sales_method": "MVP_ESTIMATE",
+    "overall_rank": 30,
+    "brand_rank": 5,
+    "category_rank": 3,
+    "generations": [
+      "DA51/DB51"
+    ],
+    "generation_count": 1,
+    "predecessor": "",
+    "successor": "",
+    "short_history": "경상용 밴 시장을 대표한 소형 상용차로 자영업·배송 수요에서 오랫동안 사용됐다.",
+    "notable_fact": "30년 가까이 판매된 장수 경상용차."
+  },
+  {
+    "id": "현대-팰리세이드",
+    "slug": "현대-팰리세이드",
+    "manufacturer": "현대",
+    "model_family": "팰리세이드",
+    "aliases": [
+      "Palisade"
+    ],
+    "category": "대형SUV",
+    "launch_year": 2018,
+    "discontinued_year": null,
+    "is_current": true,
+    "estimated_domestic_sales": 346000,
+    "display_sales": "약 35만대",
+    "sales_as_of": "2025-12-31",
+    "confidence": "HIGH",
+    "sales_method": "ANCHOR_PLUS_RECENT",
+    "overall_rank": 31,
+    "brand_rank": 11,
+    "category_rank": 1,
+    "generations": [
+      "LX2",
+      "LX3"
+    ],
+    "generation_count": 2,
+    "predecessor": "",
+    "successor": "",
+    "short_history": "2018년 출시된 현대의 대형 SUV로 가족용 3열 SUV 시장을 크게 확대한 모델이다.",
+    "notable_fact": "2025년 말 국내 누적 약 35만대."
+  },
+  {
+    "id": "현대-갤로퍼",
+    "slug": "현대-갤로퍼",
+    "manufacturer": "현대",
+    "model_family": "갤로퍼",
+    "aliases": [
+      "Galloper"
+    ],
+    "category": "중형SUV",
+    "launch_year": 1991,
+    "discontinued_year": 2003,
+    "is_current": false,
+    "estimated_domestic_sales": 330000,
+    "display_sales": "약 33만대",
+    "sales_as_of": "2025-12-31",
+    "confidence": "MEDIUM",
+    "sales_method": "MVP_ESTIMATE",
+    "overall_rank": 32,
+    "brand_rank": 12,
+    "category_rank": 3,
+    "generations": [
+      "1세대",
+      "2세대"
+    ],
+    "generation_count": 2,
+    "predecessor": "",
+    "successor": "",
+    "short_history": "1990년대 국내 정통 SUV 대중화를 이끈 현대정공 계열의 대표 SUV다.",
+    "notable_fact": "국산 SUV 붐의 초기 대표 차종."
+  },
+  {
+    "id": "쌍용-kgm-티볼리",
+    "slug": "쌍용-kgm-티볼리",
+    "manufacturer": "쌍용/KGM",
+    "model_family": "티볼리",
+    "aliases": [
+      "Tivoli"
+    ],
+    "category": "소형SUV",
+    "launch_year": 2015,
+    "discontinued_year": null,
+    "is_current": true,
+    "estimated_domestic_sales": 305000,
+    "display_sales": "약 30만대",
+    "sales_as_of": "2025-12-31",
+    "confidence": "HIGH",
+    "sales_method": "ANCHOR_PLUS_RECENT",
+    "overall_rank": 33,
+    "brand_rank": 2,
+    "category_rank": 1,
+    "generations": [
+      "X100"
+    ],
+    "generation_count": 1,
+    "predecessor": "",
+    "successor": "",
+    "short_history": "2015년 출시 후 소형 SUV 시장 확대를 촉발한 KGM의 대표 스테디셀러다.",
+    "notable_fact": "2024년 10월 국내 누적 30만대를 돌파."
+  },
+  {
+    "id": "기아-셀토스",
+    "slug": "기아-셀토스",
+    "manufacturer": "기아",
+    "model_family": "셀토스",
+    "aliases": [
+      "Seltos"
+    ],
+    "category": "소형SUV",
+    "launch_year": 2019,
+    "discontinued_year": null,
+    "is_current": true,
+    "estimated_domestic_sales": 300000,
+    "display_sales": "약 30만대",
+    "sales_as_of": "2025-12-31",
+    "confidence": "MEDIUM",
+    "sales_method": "ANCHOR_PLUS_ESTIMATE",
+    "overall_rank": 34,
+    "brand_rank": 12,
+    "category_rank": 2,
+    "generations": [
+      "SP2"
+    ],
+    "generation_count": 1,
+    "predecessor": "",
+    "successor": "",
+    "short_history": "2019년 출시된 소형 SUV로 국내에서 높은 판매량을 꾸준히 유지하고 있다.",
+    "notable_fact": "2024년 6만대 이상 판매된 기아 핵심 소형 SUV."
+  },
+  {
+    "id": "기아-카렌스",
+    "slug": "기아-카렌스",
+    "manufacturer": "기아",
+    "model_family": "카렌스",
+    "aliases": [
+      "Carens"
+    ],
+    "category": "MPV",
+    "launch_year": 1999,
+    "discontinued_year": 2018,
+    "is_current": false,
+    "estimated_domestic_sales": 300000,
+    "display_sales": "약 30만대",
+    "sales_as_of": "2025-12-31",
+    "confidence": "MEDIUM",
+    "sales_method": "MVP_ESTIMATE",
+    "overall_rank": 35,
+    "brand_rank": 13,
+    "category_rank": 3,
+    "generations": [
+      "RS",
+      "UN",
+      "RP"
+    ],
+    "generation_count": 3,
+    "predecessor": "",
+    "successor": "",
+    "short_history": "승용차 감각과 다목적 공간을 결합한 준중형 MPV로 가족용 차량 수요를 공략했다.",
+    "notable_fact": "국내 준중형 MPV 시장의 대표 모델."
+  },
+  {
+    "id": "현대-코나",
+    "slug": "현대-코나",
+    "manufacturer": "현대",
+    "model_family": "코나",
+    "aliases": [
+      "Kona"
+    ],
+    "category": "소형SUV",
+    "launch_year": 2017,
+    "discontinued_year": null,
+    "is_current": true,
+    "estimated_domestic_sales": 300000,
+    "display_sales": "약 30만대",
+    "sales_as_of": "2025-12-31",
+    "confidence": "MEDIUM",
+    "sales_method": "ANCHOR_PLUS_ESTIMATE",
+    "overall_rank": 36,
+    "brand_rank": 13,
+    "category_rank": 3,
+    "generations": [
+      "OS",
+      "SX2"
+    ],
+    "generation_count": 2,
+    "predecessor": "",
+    "successor": "",
+    "short_history": "2017년 출시된 현대의 소형 SUV로 내연기관·하이브리드·전기차 라인업을 폭넓게 운영했다.",
+    "notable_fact": "국내 소형 SUV 시장의 주요 장수 모델."
+  },
+  {
+    "id": "현대-스텔라",
+    "slug": "현대-스텔라",
+    "manufacturer": "현대",
+    "model_family": "스텔라",
+    "aliases": [
+      "Stellar"
+    ],
+    "category": "중형세단",
+    "launch_year": 1983,
+    "discontinued_year": 1997,
+    "is_current": false,
+    "estimated_domestic_sales": 300000,
+    "display_sales": "약 30만대",
+    "sales_as_of": "2025-12-31",
+    "confidence": "LOW",
+    "sales_method": "MVP_ESTIMATE",
+    "overall_rank": 37,
+    "brand_rank": 14,
+    "category_rank": 4,
+    "generations": [
+      "Y"
+    ],
+    "generation_count": 1,
+    "predecessor": "",
+    "successor": "",
+    "short_history": "포니 이후 현대가 선보인 두 번째 독자 승용 모델로 쏘나타 이전 중형차 시장을 담당했다.",
+    "notable_fact": "현대의 중형 세단 계보를 잇는 역사적 모델."
+  },
+  {
+    "id": "르노코리아-qm6",
+    "slug": "르노코리아-qm6",
+    "manufacturer": "르노코리아",
+    "model_family": "QM6",
+    "aliases": [
+      "QM6"
+    ],
+    "category": "중형SUV",
+    "launch_year": 2016,
+    "discontinued_year": null,
+    "is_current": true,
+    "estimated_domestic_sales": 280000,
+    "display_sales": "약 28만대",
+    "sales_as_of": "2025-12-31",
+    "confidence": "HIGH",
+    "sales_method": "ANCHOR_PLUS_RECENT",
+    "overall_rank": 38,
+    "brand_rank": 3,
+    "category_rank": 4,
+    "generations": [
+      "HZG"
+    ],
+    "generation_count": 1,
+    "predecessor": "",
+    "successor": "",
+    "short_history": "2016년 출시된 중형 SUV로 특히 LPG 모델을 앞세워 독자적인 시장을 만들었다.",
+    "notable_fact": "2021년 누적 판매 20만대를 돌파."
+  },
+  {
+    "id": "쌍용-kgm-렉스턴",
+    "slug": "쌍용-kgm-렉스턴",
+    "manufacturer": "쌍용/KGM",
+    "model_family": "렉스턴",
+    "aliases": [
+      "Rexton"
+    ],
+    "category": "대형SUV",
+    "launch_year": 2001,
+    "discontinued_year": null,
+    "is_current": true,
+    "estimated_domestic_sales": 280000,
+    "display_sales": "약 28만대",
+    "sales_as_of": "2025-12-31",
+    "confidence": "MEDIUM",
+    "sales_method": "MVP_ESTIMATE",
+    "overall_rank": 39,
+    "brand_rank": 3,
+    "category_rank": 2,
+    "generations": [
+      "Y200",
+      "Y300",
+      "Y400"
+    ],
+    "generation_count": 3,
+    "predecessor": "",
+    "successor": "",
+    "short_history": "2001년 출시된 프레임 기반 대형 SUV로 쌍용의 플래그십 SUV 계보를 이어왔다.",
+    "notable_fact": "1세대는 26개월 만에 10만대 판매를 달성."
+  },
+  {
+    "id": "기아-크레도스",
+    "slug": "기아-크레도스",
+    "manufacturer": "기아",
+    "model_family": "크레도스",
+    "aliases": [
+      "Credos"
+    ],
+    "category": "중형세단",
+    "launch_year": 1995,
+    "discontinued_year": 2000,
+    "is_current": false,
+    "estimated_domestic_sales": 250000,
+    "display_sales": "약 25만대",
+    "sales_as_of": "2025-12-31",
+    "confidence": "MEDIUM",
+    "sales_method": "MVP_ESTIMATE",
+    "overall_rank": 40,
+    "brand_rank": 14,
+    "category_rank": 5,
+    "generations": [
+      "1세대",
+      "2세대"
+    ],
+    "generation_count": 2,
+    "predecessor": "",
+    "successor": "",
+    "short_history": "1990년대 중반 기아의 중형 세단 시장을 책임진 모델이다.",
+    "notable_fact": "기아의 연간 10만대 클럽에 이름을 올린 모델."
+  },
+  {
+    "id": "쌍용-kgm-무쏘",
+    "slug": "쌍용-kgm-무쏘",
+    "manufacturer": "쌍용/KGM",
+    "model_family": "무쏘",
+    "aliases": [
+      "Musso"
+    ],
+    "category": "중형SUV",
+    "launch_year": 1993,
+    "discontinued_year": 2005,
+    "is_current": false,
+    "estimated_domestic_sales": 250000,
+    "display_sales": "약 25만대",
+    "sales_as_of": "2025-12-31",
+    "confidence": "MEDIUM",
+    "sales_method": "MVP_ESTIMATE",
+    "overall_rank": 41,
+    "brand_rank": 4,
+    "category_rank": 5,
+    "generations": [
+      "FJ"
+    ],
+    "generation_count": 1,
+    "predecessor": "",
+    "successor": "",
+    "short_history": "1990년대 쌍용을 대표한 프레임 SUV로 독특한 스타일과 디젤 파워트레인으로 인기를 얻었다.",
+    "notable_fact": "쌍용 SUV 전성기의 대표 모델."
+  },
+  {
+    "id": "현대-i30",
+    "slug": "현대-i30",
+    "manufacturer": "현대",
+    "model_family": "i30",
+    "aliases": [
+      "i30"
+    ],
+    "category": "준중형해치백",
+    "launch_year": 2007,
+    "discontinued_year": 2020,
+    "is_current": false,
+    "estimated_domestic_sales": 250000,
+    "display_sales": "약 25만대",
+    "sales_as_of": "2025-12-31",
+    "confidence": "MEDIUM",
+    "sales_method": "MVP_ESTIMATE",
+    "overall_rank": 42,
+    "brand_rank": 15,
+    "category_rank": 1,
+    "generations": [
+      "FD",
+      "GD",
+      "PD"
+    ],
+    "generation_count": 3,
+    "predecessor": "",
+    "successor": "",
+    "short_history": "유럽 취향의 해치백으로 기획된 현대의 준중형 모델로 국내 해치백 시장을 대표했다.",
+    "notable_fact": "국산 해치백의 대표 모델 중 하나."
+  },
+  {
+    "id": "대우-gm-누비라",
+    "slug": "대우-gm-누비라",
+    "manufacturer": "대우/GM",
+    "model_family": "누비라",
+    "aliases": [
+      "Nubira"
+    ],
+    "category": "준중형세단",
+    "launch_year": 1997,
+    "discontinued_year": 2002,
+    "is_current": false,
+    "estimated_domestic_sales": 250000,
+    "display_sales": "약 25만대",
+    "sales_as_of": "2025-12-31",
+    "confidence": "LOW",
+    "sales_method": "MVP_ESTIMATE",
+    "overall_rank": 43,
+    "brand_rank": 6,
+    "category_rank": 7,
+    "generations": [
+      "J100",
+      "J150"
+    ],
+    "generation_count": 2,
+    "predecessor": "",
+    "successor": "",
+    "short_history": "대우가 1990년대 후반 세계 시장을 겨냥해 개발한 준중형 세단이다.",
+    "notable_fact": "라세티 이전 대우 준중형 주력."
+  },
+  {
+    "id": "현대-베르나",
+    "slug": "현대-베르나",
+    "manufacturer": "현대",
+    "model_family": "베르나",
+    "aliases": [
+      "Verna"
+    ],
+    "category": "소형차",
+    "launch_year": 1999,
+    "discontinued_year": 2010,
+    "is_current": false,
+    "estimated_domestic_sales": 240000,
+    "display_sales": "약 24만대",
+    "sales_as_of": "2010-12-31",
+    "confidence": "MEDIUM",
+    "sales_method": "MULTI_SOURCE_ESTIMATE",
+    "overall_rank": 44,
+    "brand_rank": 16,
+    "category_rank": 5,
+    "generations": [
+      "LC",
+      "MC"
+    ],
+    "generation_count": 2,
+    "predecessor": "엑센트",
+    "successor": "엑센트",
+    "short_history": "1999년 출시된 현대의 소형 세단으로 두 세대에 걸쳐 국내 소형차 시장을 담당했다.",
+    "notable_fact": "2002년 34,767대, 2003년 14,428대가 판매됐다."
+  },
+  {
+    "id": "기아-니로",
+    "slug": "기아-니로",
+    "manufacturer": "기아",
+    "model_family": "니로",
+    "aliases": [
+      "Niro"
+    ],
+    "category": "소형SUV",
+    "launch_year": 2016,
+    "discontinued_year": null,
+    "is_current": true,
+    "estimated_domestic_sales": 230000,
+    "display_sales": "약 23만대",
+    "sales_as_of": "2025-12-31",
+    "confidence": "MEDIUM",
+    "sales_method": "ANCHOR_PLUS_ESTIMATE",
+    "overall_rank": 45,
+    "brand_rank": 15,
+    "category_rank": 4,
+    "generations": [
+      "DE",
+      "SG2"
+    ],
+    "generation_count": 2,
+    "predecessor": "",
+    "successor": "",
+    "short_history": "하이브리드와 전기차 중심으로 개발된 친환경 소형 SUV다.",
+    "notable_fact": "기아 친환경차 대중화를 이끈 핵심 모델."
+  },
+  {
+    "id": "쌍용-kgm-렉스턴-스포츠",
+    "slug": "쌍용-kgm-렉스턴-스포츠",
+    "manufacturer": "쌍용/KGM",
+    "model_family": "렉스턴 스포츠",
+    "aliases": [
+      "Rexton Sports",
+      "Khan"
+    ],
+    "category": "픽업",
+    "launch_year": 2018,
+    "discontinued_year": null,
+    "is_current": true,
+    "estimated_domestic_sales": 230000,
+    "display_sales": "약 23만대",
+    "sales_as_of": "2025-12-31",
+    "confidence": "MEDIUM",
+    "sales_method": "ANCHOR_PLUS_ESTIMATE",
+    "overall_rank": 46,
+    "brand_rank": 5,
+    "category_rank": 1,
+    "generations": [
+      "Q200"
+    ],
+    "generation_count": 1,
+    "predecessor": "",
+    "successor": "",
+    "short_history": "렉스턴 플랫폼을 활용한 픽업으로 국내 픽업 시장에서 높은 점유율을 유지해 왔다.",
+    "notable_fact": "출시 27개월 만에 10만대 돌파."
+  },
+  {
+    "id": "기아-옵티마-리갈",
+    "slug": "기아-옵티마-리갈",
+    "manufacturer": "기아",
+    "model_family": "옵티마/리갈",
+    "aliases": [
+      "Optima",
+      "Regal"
+    ],
+    "category": "중형세단",
+    "launch_year": 2000,
+    "discontinued_year": 2005,
+    "is_current": false,
+    "estimated_domestic_sales": 190000,
+    "display_sales": "약 19만대",
+    "sales_as_of": "2005-12-31",
+    "confidence": "MEDIUM",
+    "sales_method": "ANCHOR_PLUS_ESTIMATE",
+    "overall_rank": 47,
+    "brand_rank": 16,
+    "category_rank": 7,
+    "generations": [
+      "옵티마",
+      "옵티마 리갈"
+    ],
+    "generation_count": 2,
+    "predecessor": "크레도스",
+    "successor": "로체",
+    "short_history": "2000년 등장한 기아 중형 세단으로 크레도스 이후 로체 이전의 중형차 계보를 이었다.",
+    "notable_fact": "2000~2001년 84,397대, 2002년 48,032대, 2003년 31,817대가 확인된다."
+  },
+  {
+    "id": "대우-gm-레조",
+    "slug": "대우-gm-레조",
+    "manufacturer": "대우/GM",
+    "model_family": "레조",
+    "aliases": [
+      "Rezzo",
+      "Tacuma"
+    ],
+    "category": "MPV",
+    "launch_year": 2000,
+    "discontinued_year": 2007,
+    "is_current": false,
+    "estimated_domestic_sales": 190000,
+    "display_sales": "약 19만대",
+    "sales_as_of": "2007-12-31",
+    "confidence": "MEDIUM",
+    "sales_method": "ANCHOR_PLUS_ESTIMATE",
+    "overall_rank": 48,
+    "brand_rank": 7,
+    "category_rank": 4,
+    "generations": [
+      "U100"
+    ],
+    "generation_count": 1,
+    "predecessor": "",
+    "successor": "올란도",
+    "short_history": "2000년 출시된 대우의 MPV로 LPG 중심의 경제성을 앞세워 2000년대 초 RV 붐에서 인기를 얻었다.",
+    "notable_fact": "2000~2001년 102,377대, 2002년 41,938대, 2003년 18,164대가 확인된다."
+  },
+  {
+    "id": "르노코리아-sm6",
+    "slug": "르노코리아-sm6",
+    "manufacturer": "르노코리아",
+    "model_family": "SM6",
+    "aliases": [
+      "SM6"
+    ],
+    "category": "중형세단",
+    "launch_year": 2016,
+    "discontinued_year": 2024,
+    "is_current": false,
+    "estimated_domestic_sales": 190000,
+    "display_sales": "약 19만대",
+    "sales_as_of": "2025-12-31",
+    "confidence": "MEDIUM",
+    "sales_method": "ANCHOR_PLUS_ESTIMATE",
+    "overall_rank": 49,
+    "brand_rank": 4,
+    "category_rank": 6,
+    "generations": [
+      "LFD"
+    ],
+    "generation_count": 1,
+    "predecessor": "",
+    "successor": "",
+    "short_history": "2016년 출시돼 초기 중형 세단 시장에서 강한 판매를 기록한 르노삼성 세단이다.",
+    "notable_fact": "2018년 2월 내수 누적 10만대를 돌파."
+  },
+  {
+    "id": "제네시스-gv80",
+    "slug": "제네시스-gv80",
+    "manufacturer": "제네시스",
+    "model_family": "GV80",
+    "aliases": [
+      "GV80"
+    ],
+    "category": "대형SUV",
+    "launch_year": 2020,
+    "discontinued_year": null,
+    "is_current": true,
+    "estimated_domestic_sales": 190000,
+    "display_sales": "약 19만대",
+    "sales_as_of": "2025-12-31",
+    "confidence": "MEDIUM",
+    "sales_method": "ANCHOR_PLUS_ESTIMATE",
+    "overall_rank": 50,
+    "brand_rank": 2,
+    "category_rank": 3,
+    "generations": [
+      "JX1"
+    ],
+    "generation_count": 1,
+    "predecessor": "",
+    "successor": "",
+    "short_history": "제네시스 최초 SUV로 대형 럭셔리 SUV 시장에서 브랜드 확장을 이끈 모델이다.",
+    "notable_fact": "제네시스 SUV 라인업의 출발점."
+  },
+  {
+    "id": "기아-모하비",
+    "slug": "기아-모하비",
+    "manufacturer": "기아",
+    "model_family": "모하비",
+    "aliases": [
+      "Mohave"
+    ],
+    "category": "대형SUV",
+    "launch_year": 2008,
+    "discontinued_year": 2024,
+    "is_current": false,
+    "estimated_domestic_sales": 180000,
+    "display_sales": "약 18만대",
+    "sales_as_of": "2025-12-31",
+    "confidence": "MEDIUM",
+    "sales_method": "MVP_ESTIMATE",
+    "overall_rank": 51,
+    "brand_rank": 17,
+    "category_rank": 4,
+    "generations": [
+      "HM"
+    ],
+    "generation_count": 1,
+    "predecessor": "",
+    "successor": "",
+    "short_history": "프레임 바디와 후륜 기반 구성을 갖춘 기아의 대형 정통 SUV다.",
+    "notable_fact": "16년 넘게 판매된 장수 대형 SUV."
+  },
+  {
+    "id": "대우-gm-말리부",
+    "slug": "대우-gm-말리부",
+    "manufacturer": "대우/GM",
+    "model_family": "말리부",
+    "aliases": [
+      "Malibu"
+    ],
+    "category": "중형세단",
+    "launch_year": 2011,
+    "discontinued_year": 2022,
+    "is_current": false,
+    "estimated_domestic_sales": 180000,
+    "display_sales": "약 18만대",
+    "sales_as_of": "2025-12-31",
+    "confidence": "MEDIUM",
+    "sales_method": "MVP_ESTIMATE",
+    "overall_rank": 52,
+    "brand_rank": 8,
+    "category_rank": 8,
+    "generations": [
+      "V300",
+      "E2XX"
+    ],
+    "generation_count": 2,
+    "predecessor": "",
+    "successor": "",
+    "short_history": "토스카 후속으로 도입된 쉐보레 중형 세단으로 2세대에 걸쳐 판매됐다.",
+    "notable_fact": "2016년 신형 출시 당시 한국GM 판매를 견인."
+  },
+  {
+    "id": "현대-트라제-xg",
+    "slug": "현대-트라제-xg",
+    "manufacturer": "현대",
+    "model_family": "트라제 XG",
+    "aliases": [
+      "Trajet XG"
+    ],
+    "category": "MPV",
+    "launch_year": 1999,
+    "discontinued_year": 2008,
+    "is_current": false,
+    "estimated_domestic_sales": 180000,
+    "display_sales": "약 18만대",
+    "sales_as_of": "2008-04-30",
+    "confidence": "MEDIUM",
+    "sales_method": "ANCHOR_PLUS_ESTIMATE",
+    "overall_rank": 53,
+    "brand_rank": 17,
+    "category_rank": 5,
+    "generations": [
+      "FO"
+    ],
+    "generation_count": 1,
+    "predecessor": "",
+    "successor": "그랜드 스타렉스",
+    "short_history": "1999년 출시된 현대의 미니밴으로 승용형 MPV 시장에서 카니발·카렌스와 경쟁했다.",
+    "notable_fact": "2000~2001년 66,289대, 2002년 31,685대, 2003년 33,295대가 판매됐다."
+  },
+  {
+    "id": "기아-쎄라토",
+    "slug": "기아-쎄라토",
+    "manufacturer": "기아",
+    "model_family": "쎄라토",
+    "aliases": [
+      "Cerato"
+    ],
+    "category": "준중형세단",
+    "launch_year": 2003,
+    "discontinued_year": 2008,
+    "is_current": false,
+    "estimated_domestic_sales": 180000,
+    "display_sales": "약 18만대",
+    "sales_as_of": "2025-12-31",
+    "confidence": "LOW",
+    "sales_method": "MVP_ESTIMATE",
+    "overall_rank": 54,
+    "brand_rank": 18,
+    "category_rank": 8,
+    "generations": [
+      "LD"
+    ],
+    "generation_count": 1,
+    "predecessor": "",
+    "successor": "",
+    "short_history": "스펙트라 후속으로 등장한 기아 준중형 세단으로 포르테 이전 주력 모델이었다.",
+    "notable_fact": "포르테·K3로 이어지는 계보의 중간 모델."
+  },
+  {
+    "id": "기아-포르테",
+    "slug": "기아-포르테",
+    "manufacturer": "기아",
+    "model_family": "포르테",
+    "aliases": [
+      "Forte"
+    ],
+    "category": "준중형세단",
+    "launch_year": 2008,
+    "discontinued_year": 2013,
+    "is_current": false,
+    "estimated_domestic_sales": 180000,
+    "display_sales": "약 18만대",
+    "sales_as_of": "2025-12-31",
+    "confidence": "LOW",
+    "sales_method": "MVP_ESTIMATE",
+    "overall_rank": 55,
+    "brand_rank": 19,
+    "category_rank": 9,
+    "generations": [
+      "TD"
+    ],
+    "generation_count": 1,
+    "predecessor": "",
+    "successor": "",
+    "short_history": "쎄라토 후속으로 등장한 준중형 세단으로 이후 K3로 계보가 이어졌다.",
+    "notable_fact": "K3의 전신."
+  },
+  {
+    "id": "대우-gm-라노스",
+    "slug": "대우-gm-라노스",
+    "manufacturer": "대우/GM",
+    "model_family": "라노스",
+    "aliases": [
+      "Lanos"
+    ],
+    "category": "소형차",
+    "launch_year": 1997,
+    "discontinued_year": 2002,
+    "is_current": false,
+    "estimated_domestic_sales": 180000,
+    "display_sales": "약 18만대",
+    "sales_as_of": "2025-12-31",
+    "confidence": "LOW",
+    "sales_method": "MVP_ESTIMATE",
+    "overall_rank": 56,
+    "brand_rank": 9,
+    "category_rank": 6,
+    "generations": [
+      "T100",
+      "T150"
+    ],
+    "generation_count": 2,
+    "predecessor": "",
+    "successor": "",
+    "short_history": "대우가 1990년대 후반 글로벌 소형차 시장을 겨냥해 개발한 모델이다.",
+    "notable_fact": "칼로스 이전 대우 소형차 주력."
+  },
+  {
+    "id": "대우-gm-라보",
+    "slug": "대우-gm-라보",
+    "manufacturer": "대우/GM",
+    "model_family": "라보",
+    "aliases": [
+      "Labo"
+    ],
+    "category": "경상용",
+    "launch_year": 1991,
+    "discontinued_year": 2021,
+    "is_current": false,
+    "estimated_domestic_sales": 180000,
+    "display_sales": "약 18만대",
+    "sales_as_of": "2025-12-31",
+    "confidence": "LOW",
+    "sales_method": "MVP_ESTIMATE",
+    "overall_rank": 57,
+    "brand_rank": 10,
+    "category_rank": 4,
+    "generations": [
+      "DA51T"
+    ],
+    "generation_count": 1,
+    "predecessor": "",
+    "successor": "",
+    "short_history": "다마스와 함께 자영업 시장을 지탱한 경형 트럭으로 30년 가까이 판매됐다.",
+    "notable_fact": "국내 유일 경형 트럭으로 장기간 판매."
+  },
+  {
+    "id": "대우-gm-매그너스-토스카",
+    "slug": "대우-gm-매그너스-토스카",
+    "manufacturer": "대우/GM",
+    "model_family": "매그너스/토스카",
+    "aliases": [
+      "Magnus",
+      "Tosca"
+    ],
+    "category": "중형세단",
+    "launch_year": 2000,
+    "discontinued_year": 2011,
+    "is_current": false,
+    "estimated_domestic_sales": 180000,
+    "display_sales": "약 18만대",
+    "sales_as_of": "2025-12-31",
+    "confidence": "LOW",
+    "sales_method": "MVP_ESTIMATE",
+    "overall_rank": 58,
+    "brand_rank": 11,
+    "category_rank": 9,
+    "generations": [
+      "V200",
+      "V250"
+    ],
+    "generation_count": 2,
+    "predecessor": "",
+    "successor": "",
+    "short_history": "매그너스에서 토스카로 이어진 GM대우의 중형 세단 계보다.",
+    "notable_fact": "쉐보레 말리부 이전 한국GM 중형 세단 계보."
+  },
+  {
+    "id": "대우-gm-에스페로",
+    "slug": "대우-gm-에스페로",
+    "manufacturer": "대우/GM",
+    "model_family": "에스페로",
+    "aliases": [
+      "Espero"
+    ],
+    "category": "중형세단",
+    "launch_year": 1990,
+    "discontinued_year": 1997,
+    "is_current": false,
+    "estimated_domestic_sales": 180000,
+    "display_sales": "약 18만대",
+    "sales_as_of": "2025-12-31",
+    "confidence": "LOW",
+    "sales_method": "MVP_ESTIMATE",
+    "overall_rank": 59,
+    "brand_rank": 12,
+    "category_rank": 10,
+    "generations": [
+      "J100"
+    ],
+    "generation_count": 1,
+    "predecessor": "",
+    "successor": "",
+    "short_history": "베르토네 디자인을 적용한 대우의 초기 독자 스타일 중형 세단이다.",
+    "notable_fact": "1990년대 대우의 대표 중형차."
+  },
+  {
+    "id": "기아-k8",
+    "slug": "기아-k8",
+    "manufacturer": "기아",
+    "model_family": "K8",
+    "aliases": [
+      "K8"
+    ],
+    "category": "준대형세단",
+    "launch_year": 2021,
+    "discontinued_year": null,
+    "is_current": true,
+    "estimated_domestic_sales": 170000,
+    "display_sales": "약 17만대",
+    "sales_as_of": "2025-12-31",
+    "confidence": "MEDIUM",
+    "sales_method": "ANCHOR_PLUS_ESTIMATE",
+    "overall_rank": 60,
+    "brand_rank": 20,
+    "category_rank": 4,
+    "generations": [
+      "GL3"
+    ],
+    "generation_count": 1,
+    "predecessor": "",
+    "successor": "",
+    "short_history": "K7 후속으로 등장한 기아의 준대형 세단으로 브랜드 상향 전략의 핵심 모델이다.",
+    "notable_fact": "2021년 이후 기아 준대형 세단의 주력."
+  },
+  {
+    "id": "현대-에쿠스",
+    "slug": "현대-에쿠스",
+    "manufacturer": "현대",
+    "model_family": "에쿠스",
+    "aliases": [
+      "Equus"
+    ],
+    "category": "대형세단",
+    "launch_year": 1999,
+    "discontinued_year": 2015,
+    "is_current": false,
+    "estimated_domestic_sales": 170000,
+    "display_sales": "약 17만대",
+    "sales_as_of": "2025-12-31",
+    "confidence": "MEDIUM",
+    "sales_method": "MVP_ESTIMATE",
+    "overall_rank": 61,
+    "brand_rank": 18,
+    "category_rank": 1,
+    "generations": [
+      "LZ",
+      "VI"
+    ],
+    "generation_count": 2,
+    "predecessor": "",
+    "successor": "",
+    "short_history": "현대의 플래그십 대형 세단으로 제네시스 EQ900/G90 이전 최고급 세단 역할을 맡았다.",
+    "notable_fact": "국산 대형 세단 시장의 대표 모델."
+  },
+  {
+    "id": "현대-캐스퍼",
+    "slug": "현대-캐스퍼",
+    "manufacturer": "현대",
+    "model_family": "캐스퍼",
+    "aliases": [
+      "Casper"
+    ],
+    "category": "경형SUV",
+    "launch_year": 2021,
+    "discontinued_year": null,
+    "is_current": true,
+    "estimated_domestic_sales": 165000,
+    "display_sales": "약 16만대",
+    "sales_as_of": "2025-12-31",
+    "confidence": "HIGH",
+    "sales_method": "ANCHOR_PLUS_RECENT",
+    "overall_rank": 62,
+    "brand_rank": 19,
+    "category_rank": 1,
+    "generations": [
+      "AX1"
+    ],
+    "generation_count": 1,
+    "predecessor": "",
+    "successor": "",
+    "short_history": "2021년 출시된 경형 SUV로 온라인 판매 방식과 독특한 차급으로 주목받았다.",
+    "notable_fact": "국내 경형 SUV 시장을 개척한 모델."
+  },
+  {
+    "id": "기아-오피러스",
+    "slug": "기아-오피러스",
+    "manufacturer": "기아",
+    "model_family": "오피러스",
+    "aliases": [
+      "Opirus"
+    ],
+    "category": "대형세단",
+    "launch_year": 2003,
+    "discontinued_year": 2011,
+    "is_current": false,
+    "estimated_domestic_sales": 160000,
+    "display_sales": "약 16만대",
+    "sales_as_of": "2025-12-31",
+    "confidence": "MEDIUM",
+    "sales_method": "MVP_ESTIMATE",
+    "overall_rank": 63,
+    "brand_rank": 21,
+    "category_rank": 2,
+    "generations": [
+      "GH"
+    ],
+    "generation_count": 1,
+    "predecessor": "",
+    "successor": "",
+    "short_history": "기아의 플래그십 대형 세단으로 독특한 디자인과 고급 사양을 앞세웠다.",
+    "notable_fact": "K9 이전 기아 최고급 세단."
+  },
+  {
+    "id": "대우-gm-트랙스",
+    "slug": "대우-gm-트랙스",
+    "manufacturer": "대우/GM",
+    "model_family": "트랙스",
+    "aliases": [
+      "Trax",
+      "Trax Crossover"
+    ],
+    "category": "소형SUV",
+    "launch_year": 2013,
+    "discontinued_year": null,
+    "is_current": true,
+    "estimated_domestic_sales": 160000,
+    "display_sales": "약 16만대",
+    "sales_as_of": "2025-12-31",
+    "confidence": "MEDIUM",
+    "sales_method": "MVP_ESTIMATE",
+    "overall_rank": 64,
+    "brand_rank": 13,
+    "category_rank": 5,
+    "generations": [
+      "U200",
+      "9BQC"
+    ],
+    "generation_count": 2,
+    "predecessor": "",
+    "successor": "",
+    "short_history": "2013년 국내 소형 SUV 시장 초기에 등장했으며 2023년 크로스오버로 재탄생했다.",
+    "notable_fact": "국내보다는 수출 비중이 매우 높은 글로벌 전략차."
+  },
+  {
+    "id": "르노코리아-sm7",
+    "slug": "르노코리아-sm7",
+    "manufacturer": "르노코리아",
+    "model_family": "SM7",
+    "aliases": [
+      "SM7"
+    ],
+    "category": "준대형세단",
+    "launch_year": 2004,
+    "discontinued_year": 2020,
+    "is_current": false,
+    "estimated_domestic_sales": 160000,
+    "display_sales": "약 16만대",
+    "sales_as_of": "2025-12-31",
+    "confidence": "MEDIUM",
+    "sales_method": "MVP_ESTIMATE",
+    "overall_rank": 65,
+    "brand_rank": 5,
+    "category_rank": 5,
+    "generations": [
+      "EX2",
+      "L47"
+    ],
+    "generation_count": 2,
+    "predecessor": "",
+    "successor": "",
+    "short_history": "SM5 위급의 준대형 세단으로 르노삼성의 고급 승용 라인업을 담당했다.",
+    "notable_fact": "2000년대 르노삼성 준대형 대표 모델."
+  },
+  {
+    "id": "쌍용-kgm-체어맨",
+    "slug": "쌍용-kgm-체어맨",
+    "manufacturer": "쌍용/KGM",
+    "model_family": "체어맨",
+    "aliases": [
+      "Chairman"
+    ],
+    "category": "대형세단",
+    "launch_year": 1997,
+    "discontinued_year": 2017,
+    "is_current": false,
+    "estimated_domestic_sales": 150000,
+    "display_sales": "약 15만대",
+    "sales_as_of": "2025-12-31",
+    "confidence": "MEDIUM",
+    "sales_method": "MVP_ESTIMATE",
+    "overall_rank": 66,
+    "brand_rank": 6,
+    "category_rank": 3,
+    "generations": [
+      "H",
+      "W"
+    ],
+    "generation_count": 2,
+    "predecessor": "",
+    "successor": "",
+    "short_history": "쌍용의 플래그십 대형 세단으로 오랜 기간 의전·고급 세단 시장에서 존재감을 보였다.",
+    "notable_fact": "쌍용의 대표 고급 승용 모델."
+  },
+  {
+    "id": "제네시스-gv70",
+    "slug": "제네시스-gv70",
+    "manufacturer": "제네시스",
+    "model_family": "GV70",
+    "aliases": [
+      "GV70"
+    ],
+    "category": "중형SUV",
+    "launch_year": 2020,
+    "discontinued_year": null,
+    "is_current": true,
+    "estimated_domestic_sales": 150000,
+    "display_sales": "약 15만대",
+    "sales_as_of": "2025-12-31",
+    "confidence": "MEDIUM",
+    "sales_method": "ANCHOR_PLUS_ESTIMATE",
+    "overall_rank": 67,
+    "brand_rank": 3,
+    "category_rank": 6,
+    "generations": [
+      "JK1"
+    ],
+    "generation_count": 1,
+    "predecessor": "",
+    "successor": "",
+    "short_history": "GV80보다 작은 중형 럭셔리 SUV로 제네시스의 판매 확대에 크게 기여했다.",
+    "notable_fact": "제네시스 주요 볼륨 SUV."
+  },
+  {
+    "id": "기아-로체",
+    "slug": "기아-로체",
+    "manufacturer": "기아",
+    "model_family": "로체",
+    "aliases": [
+      "Lotze"
+    ],
+    "category": "중형세단",
+    "launch_year": 2005,
+    "discontinued_year": 2010,
+    "is_current": false,
+    "estimated_domestic_sales": 150000,
+    "display_sales": "약 15만대",
+    "sales_as_of": "2025-12-31",
+    "confidence": "LOW",
+    "sales_method": "MVP_ESTIMATE",
+    "overall_rank": 68,
+    "brand_rank": 22,
+    "category_rank": 11,
+    "generations": [
+      "MG"
+    ],
+    "generation_count": 1,
+    "predecessor": "",
+    "successor": "",
+    "short_history": "옵티마 후속으로 등장해 K5 이전까지 기아 중형 세단을 담당했다.",
+    "notable_fact": "K5 직전 기아 중형 세단."
+  },
+  {
+    "id": "기아-스펙트라",
+    "slug": "기아-스펙트라",
+    "manufacturer": "기아",
+    "model_family": "스펙트라",
+    "aliases": [
+      "Spectra"
+    ],
+    "category": "준중형세단",
+    "launch_year": 2000,
+    "discontinued_year": 2004,
+    "is_current": false,
+    "estimated_domestic_sales": 150000,
+    "display_sales": "약 15만대",
+    "sales_as_of": "2025-12-31",
+    "confidence": "LOW",
+    "sales_method": "MVP_ESTIMATE",
+    "overall_rank": 69,
+    "brand_rank": 23,
+    "category_rank": 10,
+    "generations": [
+      "SD"
+    ],
+    "generation_count": 1,
+    "predecessor": "",
+    "successor": "",
+    "short_history": "세피아 후속 계열의 준중형 세단으로 2000년대 초반 기아 승용 라인업을 맡았다.",
+    "notable_fact": "쎄라토 이전 준중형 주력."
+  },
+  {
+    "id": "대우-gm-윈스톰-캡티바",
+    "slug": "대우-gm-윈스톰-캡티바",
+    "manufacturer": "대우/GM",
+    "model_family": "윈스톰/캡티바",
+    "aliases": [
+      "Winstorm",
+      "Captiva"
+    ],
+    "category": "중형SUV",
+    "launch_year": 2006,
+    "discontinued_year": 2018,
+    "is_current": false,
+    "estimated_domestic_sales": 150000,
+    "display_sales": "약 15만대",
+    "sales_as_of": "2025-12-31",
+    "confidence": "LOW",
+    "sales_method": "MVP_ESTIMATE",
+    "overall_rank": 70,
+    "brand_rank": 14,
+    "category_rank": 7,
+    "generations": [
+      "C100"
+    ],
+    "generation_count": 1,
+    "predecessor": "",
+    "successor": "",
+    "short_history": "GM대우 최초의 본격 SUV인 윈스톰에서 쉐보레 캡티바로 이어진 중형 SUV 계보다.",
+    "notable_fact": "한국GM SUV 라인업의 출발점."
+  },
+  {
+    "id": "대우-gm-칼로스-아베오",
+    "slug": "대우-gm-칼로스-아베오",
+    "manufacturer": "대우/GM",
+    "model_family": "칼로스/아베오",
+    "aliases": [
+      "Kalos",
+      "Gentra",
+      "Aveo"
+    ],
+    "category": "소형차",
+    "launch_year": 2002,
+    "discontinued_year": 2019,
+    "is_current": false,
+    "estimated_domestic_sales": 140000,
+    "display_sales": "약 14만대",
+    "sales_as_of": "2025-12-31",
+    "confidence": "LOW",
+    "sales_method": "MVP_ESTIMATE",
+    "overall_rank": 71,
+    "brand_rank": 15,
+    "category_rank": 7,
+    "generations": [
+      "T200",
+      "T250",
+      "T300"
+    ],
+    "generation_count": 3,
+    "predecessor": "",
+    "successor": "",
+    "short_history": "칼로스·젠트라에서 쉐보레 아베오로 이어진 GM대우/한국GM 소형차 계보다.",
+    "notable_fact": "국내보다 수출 비중이 큰 글로벌 소형차."
+  },
+  {
+    "id": "쌍용-kgm-코란도-스포츠",
+    "slug": "쌍용-kgm-코란도-스포츠",
+    "manufacturer": "쌍용/KGM",
+    "model_family": "코란도 스포츠",
+    "aliases": [
+      "Korando Sports"
+    ],
+    "category": "픽업",
+    "launch_year": 2012,
+    "discontinued_year": 2018,
+    "is_current": false,
+    "estimated_domestic_sales": 130000,
+    "display_sales": "약 13만대",
+    "sales_as_of": "2025-12-31",
+    "confidence": "MEDIUM",
+    "sales_method": "MVP_ESTIMATE",
+    "overall_rank": 72,
+    "brand_rank": 7,
+    "category_rank": 2,
+    "generations": [
+      "Q150"
+    ],
+    "generation_count": 1,
+    "predecessor": "",
+    "successor": "",
+    "short_history": "액티언 스포츠 후속으로 출시된 픽업형 SUV로 렉스턴 스포츠의 전신이다.",
+    "notable_fact": "국산 픽업 시장의 대중화를 이어간 모델."
+  },
+  {
+    "id": "현대-테라칸",
+    "slug": "현대-테라칸",
+    "manufacturer": "현대",
+    "model_family": "테라칸",
+    "aliases": [
+      "Terracan"
+    ],
+    "category": "중형SUV",
+    "launch_year": 2001,
+    "discontinued_year": 2007,
+    "is_current": false,
+    "estimated_domestic_sales": 130000,
+    "display_sales": "약 13만대",
+    "sales_as_of": "2025-12-31",
+    "confidence": "MEDIUM",
+    "sales_method": "MVP_ESTIMATE",
+    "overall_rank": 73,
+    "brand_rank": 20,
+    "category_rank": 8,
+    "generations": [
+      "HP"
+    ],
+    "generation_count": 1,
+    "predecessor": "",
+    "successor": "",
+    "short_history": "갤로퍼 후속 성격의 프레임 SUV로 2000년대 초 현대 정통 SUV 라인업을 담당했다.",
+    "notable_fact": "프레임 기반 정통 SUV."
+  },
+  {
+    "id": "대우-gm-프린스-브로엄",
+    "slug": "대우-gm-프린스-브로엄",
+    "manufacturer": "대우/GM",
+    "model_family": "프린스/브로엄",
+    "aliases": [
+      "Prince",
+      "Brougham"
+    ],
+    "category": "중형세단",
+    "launch_year": 1991,
+    "discontinued_year": 1999,
+    "is_current": false,
+    "estimated_domestic_sales": 130000,
+    "display_sales": "약 13만대",
+    "sales_as_of": "2025-12-31",
+    "confidence": "LOW",
+    "sales_method": "MVP_ESTIMATE",
+    "overall_rank": 74,
+    "brand_rank": 16,
+    "category_rank": 12,
+    "generations": [
+      "Prince",
+      "Brougham"
+    ],
+    "generation_count": 2,
+    "predecessor": "",
+    "successor": "",
+    "short_history": "로얄 계보를 이어받은 대우의 후륜구동 중형·고급 세단 라인업이다.",
+    "notable_fact": "1990년대 대우 고급 세단 시장의 핵심."
+  },
+  {
+    "id": "현대-아토스",
+    "slug": "현대-아토스",
+    "manufacturer": "현대",
+    "model_family": "아토스",
+    "aliases": [
+      "Atoz",
+      "Atos"
+    ],
+    "category": "경차",
+    "launch_year": 1997,
+    "discontinued_year": 2002,
+    "is_current": false,
+    "estimated_domestic_sales": 130000,
+    "display_sales": "약 13만대",
+    "sales_as_of": "2002-12-31",
+    "confidence": "LOW",
+    "sales_method": "MULTI_SOURCE_ESTIMATE",
+    "overall_rank": 75,
+    "brand_rank": 21,
+    "category_rank": 5,
+    "generations": [
+      "FF"
+    ],
+    "generation_count": 1,
+    "predecessor": "",
+    "successor": "캐스퍼",
+    "short_history": "1997년 출시된 현대의 경차로 티코·마티즈와 함께 1990년대 후반 경차 시장을 형성했다.",
+    "notable_fact": "1998년 한 해에 국내에서 51,931대가 판매됐다."
+  },
+  {
+    "id": "현대-스타리아",
+    "slug": "현대-스타리아",
+    "manufacturer": "현대",
+    "model_family": "스타리아",
+    "aliases": [
+      "Staria"
+    ],
+    "category": "MPV",
+    "launch_year": 2021,
+    "discontinued_year": null,
+    "is_current": true,
+    "estimated_domestic_sales": 125000,
+    "display_sales": "약 12만대",
+    "sales_as_of": "2025-12-31",
+    "confidence": "MEDIUM",
+    "sales_method": "ANCHOR_PLUS_ESTIMATE",
+    "overall_rank": 76,
+    "brand_rank": 22,
+    "category_rank": 6,
+    "generations": [
+      "US4"
+    ],
+    "generation_count": 1,
+    "predecessor": "",
+    "successor": "",
+    "short_history": "그랜드 스타렉스의 후속으로 등장한 대형 MPV로 승용·상용 수요를 함께 겨냥한다.",
+    "notable_fact": "스타렉스 계보를 잇는 현대 MPV."
+  },
+  {
+    "id": "기아-슈마",
+    "slug": "기아-슈마",
+    "manufacturer": "기아",
+    "model_family": "슈마",
+    "aliases": [
+      "Shuma"
+    ],
+    "category": "준중형세단",
+    "launch_year": 1997,
+    "discontinued_year": 2001,
+    "is_current": false,
+    "estimated_domestic_sales": 120000,
+    "display_sales": "약 12만대",
+    "sales_as_of": "2025-12-31",
+    "confidence": "LOW",
+    "sales_method": "MVP_ESTIMATE",
+    "overall_rank": 77,
+    "brand_rank": 24,
+    "category_rank": 11,
+    "generations": [
+      "FB"
+    ],
+    "generation_count": 1,
+    "predecessor": "",
+    "successor": "",
+    "short_history": "스포티한 이미지를 강조한 기아 준중형 모델로 세피아 계열에서 파생됐다.",
+    "notable_fact": "1990년대 후반 기아의 개성형 준중형차."
+  },
+  {
+    "id": "대우-gm-올란도",
+    "slug": "대우-gm-올란도",
+    "manufacturer": "대우/GM",
+    "model_family": "올란도",
+    "aliases": [
+      "Orlando"
+    ],
+    "category": "MPV",
+    "launch_year": 2011,
+    "discontinued_year": 2018,
+    "is_current": false,
+    "estimated_domestic_sales": 110000,
+    "display_sales": "약 11만대",
+    "sales_as_of": "2025-12-31",
+    "confidence": "MEDIUM",
+    "sales_method": "MVP_ESTIMATE",
+    "overall_rank": 78,
+    "brand_rank": 17,
+    "category_rank": 7,
+    "generations": [
+      "J309"
+    ],
+    "generation_count": 1,
+    "predecessor": "",
+    "successor": "",
+    "short_history": "7인승 실용성을 앞세운 쉐보레 MPV로 패밀리카와 레저 수요를 공략했다.",
+    "notable_fact": "한국GM의 대표 MPV."
+  },
+  {
+    "id": "기아-아벨라",
+    "slug": "기아-아벨라",
+    "manufacturer": "기아",
+    "model_family": "아벨라",
+    "aliases": [
+      "Avella"
+    ],
+    "category": "소형차",
+    "launch_year": 1994,
+    "discontinued_year": 1999,
+    "is_current": false,
+    "estimated_domestic_sales": 110000,
+    "display_sales": "약 11만대",
+    "sales_as_of": "2025-12-31",
+    "confidence": "LOW",
+    "sales_method": "MVP_ESTIMATE",
+    "overall_rank": 79,
+    "brand_rank": 25,
+    "category_rank": 8,
+    "generations": [
+      "WB"
+    ],
+    "generation_count": 1,
+    "predecessor": "",
+    "successor": "",
+    "short_history": "프라이드 이후 소형차 시장을 겨냥해 출시한 기아의 1990년대 소형 모델이다.",
+    "notable_fact": "델타 모델로도 알려졌다."
+  },
+  {
+    "id": "대우-gm-레간자",
+    "slug": "대우-gm-레간자",
+    "manufacturer": "대우/GM",
+    "model_family": "레간자",
+    "aliases": [
+      "Leganza"
+    ],
+    "category": "중형세단",
+    "launch_year": 1997,
+    "discontinued_year": 2002,
+    "is_current": false,
+    "estimated_domestic_sales": 110000,
+    "display_sales": "약 11만대",
+    "sales_as_of": "2025-12-31",
+    "confidence": "LOW",
+    "sales_method": "MVP_ESTIMATE",
+    "overall_rank": 80,
+    "brand_rank": 18,
+    "category_rank": 13,
+    "generations": [
+      "V100"
+    ],
+    "generation_count": 1,
+    "predecessor": "",
+    "successor": "",
+    "short_history": "조르제토 주지아로 디자인을 적용한 대우의 중형 세단이다.",
+    "notable_fact": "매그너스 이전 대우 중형 세단."
+  },
+  {
+    "id": "현대-아이오닉",
+    "slug": "현대-아이오닉",
+    "manufacturer": "현대",
+    "model_family": "아이오닉",
+    "aliases": [
+      "Ioniq"
+    ],
+    "category": "친환경차",
+    "launch_year": 2016,
+    "discontinued_year": 2022,
+    "is_current": false,
+    "estimated_domestic_sales": 105000,
+    "display_sales": "약 10만대",
+    "sales_as_of": "2025-12-31",
+    "confidence": "MEDIUM",
+    "sales_method": "MVP_ESTIMATE",
+    "overall_rank": 81,
+    "brand_rank": 23,
+    "category_rank": 1,
+    "generations": [
+      "AE"
+    ],
+    "generation_count": 1,
+    "predecessor": "",
+    "successor": "",
+    "short_history": "하이브리드·플러그인·전기차를 한 차체에 제공한 현대의 초기 친환경 전용 모델이다.",
+    "notable_fact": "아이오닉 전기차 브랜드 출범의 기반이 된 모델."
+  },
+  {
+    "id": "르노코리아-qm3",
+    "slug": "르노코리아-qm3",
+    "manufacturer": "르노코리아",
+    "model_family": "QM3",
+    "aliases": [
+      "QM3"
+    ],
+    "category": "소형SUV",
+    "launch_year": 2013,
+    "discontinued_year": 2020,
+    "is_current": false,
+    "estimated_domestic_sales": 100000,
+    "display_sales": "약 10만대",
+    "sales_as_of": "2025-12-31",
+    "confidence": "MEDIUM",
+    "sales_method": "MVP_ESTIMATE",
+    "overall_rank": 82,
+    "brand_rank": 6,
+    "category_rank": 6,
+    "generations": [
+      "Captur 1세대"
+    ],
+    "generation_count": 1,
+    "predecessor": "",
+    "successor": "",
+    "short_history": "르노 캡처를 국내에 도입한 소형 SUV로 국내 소형 SUV 시장 확대기에 인기를 얻었다.",
+    "notable_fact": "수입 완제품 기반으로 판매된 르노삼성 소형 SUV."
+  },
+  {
+    "id": "르노코리아-xm3-아르카나",
+    "slug": "르노코리아-xm3-아르카나",
+    "manufacturer": "르노코리아",
+    "model_family": "XM3/아르카나",
+    "aliases": [
+      "XM3",
+      "Arkana"
+    ],
+    "category": "소형SUV",
+    "launch_year": 2020,
+    "discontinued_year": null,
+    "is_current": true,
+    "estimated_domestic_sales": 100000,
+    "display_sales": "약 10만대",
+    "sales_as_of": "2025-12-31",
+    "confidence": "MEDIUM",
+    "sales_method": "ANCHOR_PLUS_ESTIMATE",
+    "overall_rank": 83,
+    "brand_rank": 7,
+    "category_rank": 7,
+    "generations": [
+      "LJL"
+    ],
+    "generation_count": 1,
+    "predecessor": "",
+    "successor": "",
+    "short_history": "2020년 출시된 쿠페형 소형 SUV로 이후 글로벌 명칭인 아르카나로 이름을 바꿨다.",
+    "notable_fact": "출시 4개월 만에 2만2252대 판매."
+  },
+  {
+    "id": "쌍용-kgm-토레스",
+    "slug": "쌍용-kgm-토레스",
+    "manufacturer": "쌍용/KGM",
+    "model_family": "토레스",
+    "aliases": [
+      "Torres"
+    ],
+    "category": "중형SUV",
+    "launch_year": 2022,
+    "discontinued_year": null,
+    "is_current": true,
+    "estimated_domestic_sales": 100000,
+    "display_sales": "약 10만대",
+    "sales_as_of": "2025-12-31",
+    "confidence": "MEDIUM",
+    "sales_method": "ANCHOR_PLUS_ESTIMATE",
+    "overall_rank": 84,
+    "brand_rank": 8,
+    "category_rank": 9,
+    "generations": [
+      "J100"
+    ],
+    "generation_count": 1,
+    "predecessor": "",
+    "successor": "",
+    "short_history": "2022년 출시돼 KGM 회생 과정에서 판매를 견인한 중형 SUV다.",
+    "notable_fact": "출시 초반 강한 판매로 브랜드 재도약의 상징이 됐다."
+  },
+  {
+    "id": "기아-카스타",
+    "slug": "기아-카스타",
+    "manufacturer": "기아",
+    "model_family": "카스타",
+    "aliases": [
+      "Carstar"
+    ],
+    "category": "MPV",
+    "launch_year": 1999,
+    "discontinued_year": 2002,
+    "is_current": false,
+    "estimated_domestic_sales": 100000,
+    "display_sales": "약 10만대",
+    "sales_as_of": "2025-12-31",
+    "confidence": "LOW",
+    "sales_method": "MVP_ESTIMATE",
+    "overall_rank": 85,
+    "brand_rank": 26,
+    "category_rank": 9,
+    "generations": [
+      "RS"
+    ],
+    "generation_count": 1,
+    "predecessor": "",
+    "successor": "",
+    "short_history": "1990년대 말 미니밴 수요를 겨냥한 기아의 다목적 승용차다.",
+    "notable_fact": "카렌스와 함께 초기 MPV 시장을 공략."
+  },
+  {
+    "id": "쌍용-kgm-로디우스-코란도-투리스모",
+    "slug": "쌍용-kgm-로디우스-코란도-투리스모",
+    "manufacturer": "쌍용/KGM",
+    "model_family": "로디우스/코란도 투리스모",
+    "aliases": [
+      "Rodius",
+      "Korando Turismo"
+    ],
+    "category": "MPV",
+    "launch_year": 2004,
+    "discontinued_year": 2019,
+    "is_current": false,
+    "estimated_domestic_sales": 100000,
+    "display_sales": "약 10만대",
+    "sales_as_of": "2025-12-31",
+    "confidence": "LOW",
+    "sales_method": "MVP_ESTIMATE",
+    "overall_rank": 86,
+    "brand_rank": 9,
+    "category_rank": 8,
+    "generations": [
+      "A100",
+      "A150"
+    ],
+    "generation_count": 2,
+    "predecessor": "",
+    "successor": "",
+    "short_history": "대형 MPV 시장을 겨냥한 쌍용의 승합형 모델로 이후 코란도 투리스모로 이름을 바꿨다.",
+    "notable_fact": "11인승 대형 MPV 수요를 공략."
+  },
+  {
+    "id": "현대-아이오닉-5",
+    "slug": "현대-아이오닉-5",
+    "manufacturer": "현대",
+    "model_family": "아이오닉 5",
+    "aliases": [
+      "Ioniq 5"
+    ],
+    "category": "전기SUV",
+    "launch_year": 2021,
+    "discontinued_year": null,
+    "is_current": true,
+    "estimated_domestic_sales": 95000,
+    "display_sales": "약 9.5만대",
+    "sales_as_of": "2025-12-31",
+    "confidence": "MEDIUM",
+    "sales_method": "ANCHOR_PLUS_ESTIMATE",
+    "overall_rank": 87,
+    "brand_rank": 24,
+    "category_rank": 1,
+    "generations": [
+      "NE"
+    ],
+    "generation_count": 1,
+    "predecessor": "",
+    "successor": "",
+    "short_history": "E-GMP를 기반으로 한 현대의 첫 전용 전기차로 아이오닉 브랜드의 대표 모델이다.",
+    "notable_fact": "국내 전용 전기차 대중화를 이끈 모델."
+  },
+  {
+    "id": "기아-스토닉",
+    "slug": "기아-스토닉",
+    "manufacturer": "기아",
+    "model_family": "스토닉",
+    "aliases": [
+      "Stonic"
+    ],
+    "category": "소형SUV",
+    "launch_year": 2017,
+    "discontinued_year": 2020,
+    "is_current": false,
+    "estimated_domestic_sales": 90000,
+    "display_sales": "약 9만대",
+    "sales_as_of": "2025-12-31",
+    "confidence": "MEDIUM",
+    "sales_method": "MVP_ESTIMATE",
+    "overall_rank": 88,
+    "brand_rank": 27,
+    "category_rank": 8,
+    "generations": [
+      "YB CUV"
+    ],
+    "generation_count": 1,
+    "predecessor": "",
+    "successor": "",
+    "short_history": "소형 SUV 시장 확대기에 등장한 엔트리급 기아 SUV다.",
+    "notable_fact": "셀토스 등장 전 기아 소형 SUV 라인업의 한 축."
+  },
+  {
+    "id": "제네시스-g70",
+    "slug": "제네시스-g70",
+    "manufacturer": "제네시스",
+    "model_family": "G70",
+    "aliases": [
+      "G70"
+    ],
+    "category": "중형세단",
+    "launch_year": 2017,
+    "discontinued_year": null,
+    "is_current": true,
+    "estimated_domestic_sales": 90000,
+    "display_sales": "약 9만대",
+    "sales_as_of": "2025-12-31",
+    "confidence": "MEDIUM",
+    "sales_method": "MVP_ESTIMATE",
+    "overall_rank": 89,
+    "brand_rank": 4,
+    "category_rank": 14,
+    "generations": [
+      "IK"
+    ],
+    "generation_count": 1,
+    "predecessor": "",
+    "successor": "",
+    "short_history": "스포츠 세단 성격을 강조한 제네시스의 엔트리 세단이다.",
+    "notable_fact": "후륜구동 스포츠 세단 포지션."
+  },
+  {
+    "id": "기아-쏘울",
+    "slug": "기아-쏘울",
+    "manufacturer": "기아",
+    "model_family": "쏘울",
+    "aliases": [
+      "Soul"
+    ],
+    "category": "소형SUV",
+    "launch_year": 2008,
+    "discontinued_year": 2021,
+    "is_current": false,
+    "estimated_domestic_sales": 90000,
+    "display_sales": "약 9만대",
+    "sales_as_of": "2025-12-31",
+    "confidence": "LOW",
+    "sales_method": "MVP_ESTIMATE",
+    "overall_rank": 90,
+    "brand_rank": 28,
+    "category_rank": 9,
+    "generations": [
+      "AM",
+      "PS",
+      "SK3"
+    ],
+    "generation_count": 3,
+    "predecessor": "",
+    "successor": "",
+    "short_history": "박스형 디자인을 앞세운 개성형 크로스오버로 해외에서 특히 높은 인지도를 얻었다.",
+    "notable_fact": "국내보다 해외에서 더 강했던 독특한 모델."
+  },
+  {
+    "id": "르노코리아-qm5",
+    "slug": "르노코리아-qm5",
+    "manufacturer": "르노코리아",
+    "model_family": "QM5",
+    "aliases": [
+      "QM5"
+    ],
+    "category": "중형SUV",
+    "launch_year": 2007,
+    "discontinued_year": 2016,
+    "is_current": false,
+    "estimated_domestic_sales": 90000,
+    "display_sales": "약 9만대",
+    "sales_as_of": "2025-12-31",
+    "confidence": "LOW",
+    "sales_method": "MVP_ESTIMATE",
+    "overall_rank": 91,
+    "brand_rank": 8,
+    "category_rank": 10,
+    "generations": [
+      "H45"
+    ],
+    "generation_count": 1,
+    "predecessor": "",
+    "successor": "",
+    "short_history": "르노삼성의 첫 SUV로 QM6 이전 중형 SUV 라인업을 담당했다.",
+    "notable_fact": "부산공장에서 생산된 르노삼성 최초 SUV."
+  },
+  {
+    "id": "현대-다이너스티",
+    "slug": "현대-다이너스티",
+    "manufacturer": "현대",
+    "model_family": "다이너스티",
+    "aliases": [
+      "Dynasty"
+    ],
+    "category": "대형세단",
+    "launch_year": 1996,
+    "discontinued_year": 2005,
+    "is_current": false,
+    "estimated_domestic_sales": 90000,
+    "display_sales": "약 9만대",
+    "sales_as_of": "2025-12-31",
+    "confidence": "LOW",
+    "sales_method": "MVP_ESTIMATE",
+    "overall_rank": 92,
+    "brand_rank": 25,
+    "category_rank": 4,
+    "generations": [
+      "LX"
+    ],
+    "generation_count": 1,
+    "predecessor": "",
+    "successor": "",
+    "short_history": "뉴 그랜저와 에쿠스 사이의 고급 세단 수요를 담당한 1990년대 현대의 대형차다.",
+    "notable_fact": "에쿠스 이전 고급 세단 계보의 한 축."
+  },
+  {
+    "id": "현대-싼타모",
+    "slug": "현대-싼타모",
+    "manufacturer": "현대",
+    "model_family": "싼타모",
+    "aliases": [
+      "Santamo"
+    ],
+    "category": "MPV",
+    "launch_year": 1996,
+    "discontinued_year": 2002,
+    "is_current": false,
+    "estimated_domestic_sales": 90000,
+    "display_sales": "약 9만대",
+    "sales_as_of": "2002-12-31",
+    "confidence": "LOW",
+    "sales_method": "MULTI_SOURCE_ESTIMATE",
+    "overall_rank": 93,
+    "brand_rank": 26,
+    "category_rank": 10,
+    "generations": [
+      "M-2"
+    ],
+    "generation_count": 1,
+    "predecessor": "",
+    "successor": "트라제 XG",
+    "short_history": "1996년 시판된 7인승 MPV로 국내 RV·MPV 시장 형성기에 등장한 현대정공 계열 모델이다.",
+    "notable_fact": "단종 직전인 2002년에도 11,279대가 판매됐다."
+  },
+  {
+    "id": "기아-비스토",
+    "slug": "기아-비스토",
+    "manufacturer": "기아",
+    "model_family": "비스토",
+    "aliases": [
+      "Visto"
+    ],
+    "category": "경차",
+    "launch_year": 1999,
+    "discontinued_year": 2004,
+    "is_current": false,
+    "estimated_domestic_sales": 89000,
+    "display_sales": "약 8.9만대",
+    "sales_as_of": "2004-12-31",
+    "confidence": "MEDIUM",
+    "sales_method": "ANNUAL_SUM",
+    "overall_rank": 94,
+    "brand_rank": 29,
+    "category_rank": 6,
+    "generations": [
+      "MXL"
+    ],
+    "generation_count": 1,
+    "predecessor": "",
+    "successor": "모닝",
+    "short_history": "1999년 출시된 기아 경차로 현대 아토스 기반의 형제차이며 이후 모닝으로 계보가 이어졌다.",
+    "notable_fact": "1999~2004 연간 국내 판매량 합계가 약 8.9만대다."
+  },
+  {
+    "id": "현대-베라크루즈",
+    "slug": "현대-베라크루즈",
+    "manufacturer": "현대",
+    "model_family": "베라크루즈",
+    "aliases": [
+      "Veracruz"
+    ],
+    "category": "대형SUV",
+    "launch_year": 2006,
+    "discontinued_year": 2015,
+    "is_current": false,
+    "estimated_domestic_sales": 85000,
+    "display_sales": "약 8.5만대",
+    "sales_as_of": "2025-12-31",
+    "confidence": "MEDIUM",
+    "sales_method": "MVP_ESTIMATE",
+    "overall_rank": 95,
+    "brand_rank": 27,
+    "category_rank": 5,
+    "generations": [
+      "EN"
+    ],
+    "generation_count": 1,
+    "predecessor": "",
+    "successor": "",
+    "short_history": "현대가 프리미엄 대형 SUV 시장을 겨냥해 선보인 7인승 SUV다.",
+    "notable_fact": "팰리세이드 이전 현대 대형 SUV 계보의 핵심 모델."
+  },
+  {
+    "id": "제네시스-g90-eq900",
+    "slug": "제네시스-g90-eq900",
+    "manufacturer": "제네시스",
+    "model_family": "G90/EQ900",
+    "aliases": [
+      "G90",
+      "EQ900"
+    ],
+    "category": "대형세단",
+    "launch_year": 2015,
+    "discontinued_year": null,
+    "is_current": true,
+    "estimated_domestic_sales": 80000,
+    "display_sales": "약 8만대",
+    "sales_as_of": "2025-12-31",
+    "confidence": "MEDIUM",
+    "sales_method": "MVP_ESTIMATE",
+    "overall_rank": 96,
+    "brand_rank": 5,
+    "category_rank": 5,
+    "generations": [
+      "HI",
+      "RS4"
+    ],
+    "generation_count": 2,
+    "predecessor": "",
+    "successor": "",
+    "short_history": "EQ900에서 G90으로 이어진 제네시스의 플래그십 대형 세단이다.",
+    "notable_fact": "국산 럭셔리 플래그십 세단의 대표 모델."
+  },
+  {
+    "id": "현대-베뉴",
+    "slug": "현대-베뉴",
+    "manufacturer": "현대",
+    "model_family": "베뉴",
+    "aliases": [
+      "Venue"
+    ],
+    "category": "소형SUV",
+    "launch_year": 2019,
+    "discontinued_year": null,
+    "is_current": true,
+    "estimated_domestic_sales": 80000,
+    "display_sales": "약 8만대",
+    "sales_as_of": "2025-12-31",
+    "confidence": "MEDIUM",
+    "sales_method": "ANCHOR_PLUS_ESTIMATE",
+    "overall_rank": 97,
+    "brand_rank": 28,
+    "category_rank": 10,
+    "generations": [
+      "QX"
+    ],
+    "generation_count": 1,
+    "predecessor": "",
+    "successor": "",
+    "short_history": "코나보다 작은 도심형 SUV로 1~2인 가구를 겨냥해 출시됐다.",
+    "notable_fact": "현대의 엔트리 SUV."
+  },
+  {
+    "id": "쌍용-kgm-액티언",
+    "slug": "쌍용-kgm-액티언",
+    "manufacturer": "쌍용/KGM",
+    "model_family": "액티언",
+    "aliases": [
+      "Actyon"
+    ],
+    "category": "준중형SUV",
+    "launch_year": 2005,
+    "discontinued_year": 2010,
+    "is_current": false,
+    "estimated_domestic_sales": 80000,
+    "display_sales": "약 8만대",
+    "sales_as_of": "2025-12-31",
+    "confidence": "LOW",
+    "sales_method": "MVP_ESTIMATE",
+    "overall_rank": 98,
+    "brand_rank": 10,
+    "category_rank": 4,
+    "generations": [
+      "C100"
+    ],
+    "generation_count": 1,
+    "predecessor": "",
+    "successor": "",
+    "short_history": "쿠페형 실루엣을 강조한 독특한 SUV로 액티언 스포츠와 함께 판매됐다.",
+    "notable_fact": "국산 SUV 중 이른 시기의 쿠페형 디자인."
+  },
+  {
+    "id": "기아-리오",
+    "slug": "기아-리오",
+    "manufacturer": "기아",
+    "model_family": "리오",
+    "aliases": [
+      "Rio",
+      "Rio SF"
+    ],
+    "category": "소형차",
+    "launch_year": 1999,
+    "discontinued_year": 2005,
+    "is_current": false,
+    "estimated_domestic_sales": 70000,
+    "display_sales": "약 7만대",
+    "sales_as_of": "2005-12-31",
+    "confidence": "LOW",
+    "sales_method": "MULTI_SOURCE_ESTIMATE",
+    "overall_rank": 99,
+    "brand_rank": 30,
+    "category_rank": 9,
+    "generations": [
+      "DC",
+      "Rio SF"
+    ],
+    "generation_count": 2,
+    "predecessor": "아벨라",
+    "successor": "프라이드",
+    "short_history": "1999년 출시된 기아 소형차로 세단과 5도어 형태로 판매되며 프라이드 후계 역할을 했다.",
+    "notable_fact": "2002년 19,837대, 2003년 7,844대가 판매됐다."
+  },
+  {
+    "id": "기아-ev6",
+    "slug": "기아-ev6",
+    "manufacturer": "기아",
+    "model_family": "EV6",
+    "aliases": [
+      "EV6"
+    ],
+    "category": "전기SUV",
+    "launch_year": 2021,
+    "discontinued_year": null,
+    "is_current": true,
+    "estimated_domestic_sales": 65000,
+    "display_sales": "약 6.5만대",
+    "sales_as_of": "2025-12-31",
+    "confidence": "MEDIUM",
+    "sales_method": "ANCHOR_PLUS_ESTIMATE",
+    "overall_rank": 100,
+    "brand_rank": 31,
+    "category_rank": 2,
+    "generations": [
+      "CV"
+    ],
+    "generation_count": 1,
+    "predecessor": "",
+    "successor": "",
+    "short_history": "E-GMP 기반 기아의 첫 전용 전기차로 브랜드 전동화 전환을 상징한다.",
+    "notable_fact": "2021년 출시 이후 국내 전기차 시장 주요 모델."
+  },
+  {
+    "id": "쌍용-kgm-카이런",
+    "slug": "쌍용-kgm-카이런",
+    "manufacturer": "쌍용/KGM",
+    "model_family": "카이런",
+    "aliases": [
+      "Kyron"
+    ],
+    "category": "중형SUV",
+    "launch_year": 2005,
+    "discontinued_year": 2011,
+    "is_current": false,
+    "estimated_domestic_sales": 65000,
+    "display_sales": "약 6.5만대",
+    "sales_as_of": "2025-12-31",
+    "confidence": "LOW",
+    "sales_method": "MVP_ESTIMATE",
+    "overall_rank": 101,
+    "brand_rank": 11,
+    "category_rank": 11,
+    "generations": [
+      "D100"
+    ],
+    "generation_count": 1,
+    "predecessor": "",
+    "successor": "",
+    "short_history": "렉스턴 아래급을 겨냥한 프레임 SUV로 2000년대 중반 쌍용 SUV 라인업을 구성했다.",
+    "notable_fact": "뉴 코란도 단종 이후 중형 SUV 역할."
+  },
+  {
+    "id": "대우-gm-트레일블레이저",
+    "slug": "대우-gm-트레일블레이저",
+    "manufacturer": "대우/GM",
+    "model_family": "트레일블레이저",
+    "aliases": [
+      "Trailblazer"
+    ],
+    "category": "소형SUV",
+    "launch_year": 2020,
+    "discontinued_year": null,
+    "is_current": true,
+    "estimated_domestic_sales": 60000,
+    "display_sales": "약 6만대",
+    "sales_as_of": "2025-12-31",
+    "confidence": "MEDIUM",
+    "sales_method": "ANCHOR_PLUS_ESTIMATE",
+    "overall_rank": 102,
+    "brand_rank": 19,
+    "category_rank": 11,
+    "generations": [
+      "9BYC"
+    ],
+    "generation_count": 1,
+    "predecessor": "",
+    "successor": "",
+    "short_history": "2020년 출시된 소형 SUV로 한국 생산 물량 대부분이 해외로 수출되는 글로벌 전략차다.",
+    "notable_fact": "국내보다 미국 등 해외 시장에서 훨씬 많이 판매."
+  },
+  {
+    "id": "기아-k9",
+    "slug": "기아-k9",
+    "manufacturer": "기아",
+    "model_family": "K9",
+    "aliases": [
+      "K9"
+    ],
+    "category": "대형세단",
+    "launch_year": 2012,
+    "discontinued_year": null,
+    "is_current": true,
+    "estimated_domestic_sales": 45000,
+    "display_sales": "약 4.5만대",
+    "sales_as_of": "2025-12-31",
+    "confidence": "MEDIUM",
+    "sales_method": "MVP_ESTIMATE",
+    "overall_rank": 103,
+    "brand_rank": 32,
+    "category_rank": 6,
+    "generations": [
+      "KH",
+      "RJ"
+    ],
+    "generation_count": 2,
+    "predecessor": "",
+    "successor": "",
+    "short_history": "기아의 플래그십 후륜구동 대형 세단으로 브랜드 최고급 모델 역할을 한다.",
+    "notable_fact": "기아 승용 라인업의 최상위 세단."
+  },
+  {
+    "id": "대우-gm-알페온",
+    "slug": "대우-gm-알페온",
+    "manufacturer": "대우/GM",
+    "model_family": "알페온",
+    "aliases": [
+      "Alpheon"
+    ],
+    "category": "준대형세단",
+    "launch_year": 2010,
+    "discontinued_year": 2015,
+    "is_current": false,
+    "estimated_domestic_sales": 45000,
+    "display_sales": "약 4.5만대",
+    "sales_as_of": "2025-12-31",
+    "confidence": "MEDIUM",
+    "sales_method": "MVP_ESTIMATE",
+    "overall_rank": 104,
+    "brand_rank": 20,
+    "category_rank": 6,
+    "generations": [
+      "V300"
+    ],
+    "generation_count": 1,
+    "predecessor": "",
+    "successor": "",
+    "short_history": "GM 뷰익 라크로스를 기반으로 한 한국GM의 준대형 세단이다.",
+    "notable_fact": "그랜저 경쟁을 목표로 출시된 준대형 모델."
+  },
+  {
+    "id": "르노코리아-그랑-콜레오스",
+    "slug": "르노코리아-그랑-콜레오스",
+    "manufacturer": "르노코리아",
+    "model_family": "그랑 콜레오스",
+    "aliases": [
+      "Grand Koleos"
+    ],
+    "category": "중형SUV",
+    "launch_year": 2024,
+    "discontinued_year": null,
+    "is_current": true,
+    "estimated_domestic_sales": 45000,
+    "display_sales": "약 4.5만대",
+    "sales_as_of": "2025-12-31",
+    "confidence": "MEDIUM",
+    "sales_method": "ANCHOR_PLUS_ESTIMATE",
+    "overall_rank": 105,
+    "brand_rank": 9,
+    "category_rank": 12,
+    "generations": [
+      "Aurora 1"
+    ],
+    "generation_count": 1,
+    "predecessor": "",
+    "successor": "",
+    "short_history": "2024년 출시된 하이브리드 중심 중형 SUV로 르노코리아의 판매 회복을 이끈 신형 모델이다.",
+    "notable_fact": "르노코리아의 오로라 프로젝트 첫 양산차."
+  },
+  {
+    "id": "현대-아이오닉-6",
+    "slug": "현대-아이오닉-6",
+    "manufacturer": "현대",
+    "model_family": "아이오닉 6",
+    "aliases": [
+      "Ioniq 6"
+    ],
+    "category": "전기세단",
+    "launch_year": 2022,
+    "discontinued_year": null,
+    "is_current": true,
+    "estimated_domestic_sales": 42000,
+    "display_sales": "약 4.2만대",
+    "sales_as_of": "2025-12-31",
+    "confidence": "MEDIUM",
+    "sales_method": "ANCHOR_PLUS_ESTIMATE",
+    "overall_rank": 106,
+    "brand_rank": 29,
+    "category_rank": 1,
+    "generations": [
+      "CE"
+    ],
+    "generation_count": 1,
+    "predecessor": "",
+    "successor": "",
+    "short_history": "E-GMP 기반 전용 전기 세단으로 공력성능을 강조한 아이오닉 브랜드의 두 번째 모델이다.",
+    "notable_fact": "현대의 전용 전기 세단."
+  },
+  {
+    "id": "현대-넥쏘",
+    "slug": "현대-넥쏘",
+    "manufacturer": "현대",
+    "model_family": "넥쏘",
+    "aliases": [
+      "Nexo"
+    ],
+    "category": "수소SUV",
+    "launch_year": 2018,
+    "discontinued_year": null,
+    "is_current": true,
+    "estimated_domestic_sales": 40000,
+    "display_sales": "약 4만대",
+    "sales_as_of": "2025-12-31",
+    "confidence": "MEDIUM",
+    "sales_method": "ANCHOR_PLUS_ESTIMATE",
+    "overall_rank": 107,
+    "brand_rank": 30,
+    "category_rank": 1,
+    "generations": [
+      "FE",
+      "2세대"
+    ],
+    "generation_count": 2,
+    "predecessor": "",
+    "successor": "",
+    "short_history": "현대의 수소전기차 전용 SUV로 국내 수소차 보급을 대표해 온 모델이다.",
+    "notable_fact": "국내 수소전기차 보급의 대표 차종."
+  },
+  {
+    "id": "현대-라비타",
+    "slug": "현대-라비타",
+    "manufacturer": "현대",
+    "model_family": "라비타",
+    "aliases": [
+      "Lavita",
+      "Matrix"
+    ],
+    "category": "MPV",
+    "launch_year": 2001,
+    "discontinued_year": 2007,
+    "is_current": false,
+    "estimated_domestic_sales": 40000,
+    "display_sales": "약 4만대",
+    "sales_as_of": "2007-12-31",
+    "confidence": "LOW",
+    "sales_method": "MULTI_SOURCE_ESTIMATE",
+    "overall_rank": 108,
+    "brand_rank": 31,
+    "category_rank": 11,
+    "generations": [
+      "FC"
+    ],
+    "generation_count": 1,
+    "predecessor": "",
+    "successor": "",
+    "short_history": "2001년 출시된 현대의 소형 MPV로 높은 지붕과 실용적인 실내공간을 강조했다.",
+    "notable_fact": "2002년 10,381대, 2003년 3,741대가 판매됐다."
+  },
+  {
+    "id": "현대-i40",
+    "slug": "현대-i40",
+    "manufacturer": "현대",
+    "model_family": "i40",
+    "aliases": [
+      "i40"
+    ],
+    "category": "중형왜건",
+    "launch_year": 2011,
+    "discontinued_year": 2019,
+    "is_current": false,
+    "estimated_domestic_sales": 35000,
+    "display_sales": "약 3.5만대",
+    "sales_as_of": "2025-12-31",
+    "confidence": "LOW",
+    "sales_method": "MVP_ESTIMATE",
+    "overall_rank": 109,
+    "brand_rank": 32,
+    "category_rank": 1,
+    "generations": [
+      "VF"
+    ],
+    "generation_count": 1,
+    "predecessor": "",
+    "successor": "",
+    "short_history": "유럽 시장을 겨냥한 중형 왜건·세단으로 국내에서는 틈새 모델로 판매됐다.",
+    "notable_fact": "국산 왜건의 대표적 희소 모델."
+  },
+  {
+    "id": "기아-ev3",
+    "slug": "기아-ev3",
+    "manufacturer": "기아",
+    "model_family": "EV3",
+    "aliases": [
+      "EV3"
+    ],
+    "category": "전기SUV",
+    "launch_year": 2024,
+    "discontinued_year": null,
+    "is_current": true,
+    "estimated_domestic_sales": 34000,
+    "display_sales": "약 3.4만대",
+    "sales_as_of": "2025-12-31",
+    "confidence": "HIGH",
+    "sales_method": "ANCHOR_PLUS_RECENT",
+    "overall_rank": 110,
+    "brand_rank": 33,
+    "category_rank": 3,
+    "generations": [
+      "SV"
+    ],
+    "generation_count": 1,
+    "predecessor": "",
+    "successor": "",
+    "short_history": "2024년 출시된 소형 전용 전기 SUV로 기아의 대중형 전기차 전략을 맡고 있다.",
+    "notable_fact": "2024년 1.3만대, 2025년 2.1만대 수준 판매."
+  },
+  {
+    "id": "현대-투스카니",
+    "slug": "현대-투스카니",
+    "manufacturer": "현대",
+    "model_family": "투스카니",
+    "aliases": [
+      "Tuscani"
+    ],
+    "category": "스포츠카",
+    "launch_year": 2001,
+    "discontinued_year": 2008,
+    "is_current": false,
+    "estimated_domestic_sales": 25000,
+    "display_sales": "약 2.5만대",
+    "sales_as_of": "2008-12-31",
+    "confidence": "MEDIUM",
+    "sales_method": "MULTI_SOURCE_ESTIMATE",
+    "overall_rank": 111,
+    "brand_rank": 33,
+    "category_rank": 1,
+    "generations": [
+      "GK"
+    ],
+    "generation_count": 1,
+    "predecessor": "티뷰론",
+    "successor": "제네시스 쿠페",
+    "short_history": "2001년 출시된 현대의 전륜구동 스포츠 쿠페로 국내 튜닝 문화와 함께 강한 인지도를 남겼다.",
+    "notable_fact": "2002년 9,178대, 2003년 4,057대가 판매됐다."
+  },
+  {
+    "id": "쌍용-kgm-액티언신형",
+    "slug": "쌍용-kgm-액티언신형",
+    "manufacturer": "쌍용/KGM",
+    "model_family": "액티언(신형)",
+    "aliases": [
+      "Actyon"
+    ],
+    "category": "중형SUV",
+    "launch_year": 2024,
+    "discontinued_year": null,
+    "is_current": true,
+    "estimated_domestic_sales": 20000,
+    "display_sales": "약 2만대",
+    "sales_as_of": "2025-12-31",
+    "confidence": "LOW",
+    "sales_method": "ANCHOR_PLUS_ESTIMATE",
+    "overall_rank": 112,
+    "brand_rank": 12,
+    "category_rank": 13,
+    "generations": [
+      "J120"
+    ],
+    "generation_count": 1,
+    "predecessor": "",
+    "successor": "",
+    "short_history": "2024년 부활한 액티언 이름의 도심형 SUV로 토레스 기반 상품성을 공유한다.",
+    "notable_fact": "과거 액티언 명칭을 현대적으로 부활시킨 모델."
+  },
+  {
+    "id": "현대-제네시스-쿠페",
+    "slug": "현대-제네시스-쿠페",
+    "manufacturer": "현대",
+    "model_family": "제네시스 쿠페",
+    "aliases": [
+      "Genesis Coupe"
+    ],
+    "category": "스포츠카",
+    "launch_year": 2008,
+    "discontinued_year": 2016,
+    "is_current": false,
+    "estimated_domestic_sales": 16000,
+    "display_sales": "약 1.6만대",
+    "sales_as_of": "2016-12-31",
+    "confidence": "HIGH",
+    "sales_method": "ANNUAL_SUM",
+    "overall_rank": 113,
+    "brand_rank": 34,
+    "category_rank": 2,
+    "generations": [
+      "BK"
+    ],
+    "generation_count": 1,
+    "predecessor": "투스카니",
+    "successor": "",
+    "short_history": "2008년 출시된 현대의 후륜구동 스포츠 쿠페로 국산 스포츠 쿠페 시장에서 독특한 위치를 차지했다.",
+    "notable_fact": "2008~2014 공개 연간 판매만 합쳐도 약 1.54만대다."
+  },
+  {
+    "id": "제네시스-gv60",
+    "slug": "제네시스-gv60",
+    "manufacturer": "제네시스",
+    "model_family": "GV60",
+    "aliases": [
+      "GV60"
+    ],
+    "category": "전기SUV",
+    "launch_year": 2021,
+    "discontinued_year": null,
+    "is_current": true,
+    "estimated_domestic_sales": 15000,
+    "display_sales": "약 1.5만대",
+    "sales_as_of": "2025-12-31",
+    "confidence": "LOW",
+    "sales_method": "MVP_ESTIMATE",
+    "overall_rank": 114,
+    "brand_rank": 6,
+    "category_rank": 4,
+    "generations": [
+      "JW"
+    ],
+    "generation_count": 1,
+    "predecessor": "",
+    "successor": "",
+    "short_history": "제네시스의 첫 전용 전기차로 E-GMP 플랫폼을 기반으로 한다.",
+    "notable_fact": "제네시스 전동화 전용 모델."
+  },
+  {
+    "id": "현대-아슬란",
+    "slug": "현대-아슬란",
+    "manufacturer": "현대",
+    "model_family": "아슬란",
+    "aliases": [
+      "Aslan"
+    ],
+    "category": "준대형세단",
+    "launch_year": 2014,
+    "discontinued_year": 2017,
+    "is_current": false,
+    "estimated_domestic_sales": 14000,
+    "display_sales": "약 1.4만대",
+    "sales_as_of": "2025-12-31",
+    "confidence": "MEDIUM",
+    "sales_method": "MVP_ESTIMATE",
+    "overall_rank": 115,
+    "brand_rank": 35,
+    "category_rank": 7,
+    "generations": [
+      "AG"
+    ],
+    "generation_count": 1,
+    "predecessor": "",
+    "successor": "",
+    "short_history": "그랜저와 제네시스 사이를 겨냥한 전륜구동 준대형 세단으로 짧게 판매됐다.",
+    "notable_fact": "3년 남짓 판매된 단명 모델."
+  },
+  {
+    "id": "기아-ev9",
+    "slug": "기아-ev9",
+    "manufacturer": "기아",
+    "model_family": "EV9",
+    "aliases": [
+      "EV9"
+    ],
+    "category": "전기SUV",
+    "launch_year": 2023,
+    "discontinued_year": null,
+    "is_current": true,
+    "estimated_domestic_sales": 9000,
+    "display_sales": "약 9,000대",
+    "sales_as_of": "2025-12-31",
+    "confidence": "MEDIUM",
+    "sales_method": "MVP_ESTIMATE",
+    "overall_rank": 116,
+    "brand_rank": 34,
+    "category_rank": 5,
+    "generations": [
+      "MV"
+    ],
+    "generation_count": 1,
+    "predecessor": "",
+    "successor": "",
+    "short_history": "대형 3열 전용 전기 SUV로 기아 전동화 라인업의 플래그십이다.",
+    "notable_fact": "국내에서는 틈새 대형 전기 SUV 시장을 공략."
+  },
+  {
+    "id": "대우-gm-아카디아",
+    "slug": "대우-gm-아카디아",
+    "manufacturer": "대우/GM",
+    "model_family": "아카디아",
+    "aliases": [
+      "Arcadia"
+    ],
+    "category": "대형세단",
+    "launch_year": 1994,
+    "discontinued_year": 1999,
+    "is_current": false,
+    "estimated_domestic_sales": 6000,
+    "display_sales": "약 6,000대",
+    "sales_as_of": "2025-12-31",
+    "confidence": "MEDIUM",
+    "sales_method": "MVP_ESTIMATE",
+    "overall_rank": 117,
+    "brand_rank": 21,
+    "category_rank": 7,
+    "generations": [
+      "NA1"
+    ],
+    "generation_count": 1,
+    "predecessor": "",
+    "successor": "",
+    "short_history": "혼다 레전드를 기반으로 생산한 대우의 고급 대형 세단이다.",
+    "notable_fact": "판매량은 적지만 국산 고급차 역사에서 독특한 위치를 가진다."
+  }
+]
